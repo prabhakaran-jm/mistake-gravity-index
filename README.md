@@ -2,16 +2,18 @@
 
 > **Why this matters for coaches:** In the flood of post-match data, identifying which deaths actually cost the game is a manual, exhausting process. MGI automates this by filtering out "traded" kills and highlighting the strategically catastrophic moments where a team loses a member under objective pressure without any reciprocal gain. It turns raw event logs into an actionable hit-list of game-losing mistakes.
 
-Mistake Gravity Index is an assistant-coach analytics tool for League of Legends coaches and analysts.
-It quantifies the strategic damage of in-game mistakes by analyzing "untraded deaths" and contextualizing them with objective pressure (Baron, Drake, Towers, etc.).
+Mistake Gravity Index (MGI) is an assistant-coach analytics tool for League of Legends coaches and analysts.
+Built for the **Sky’s The Limit – Cloud9 x JetBrains Hackathon** under **Category 1 — Comprehensive Assistant Coach**.
 
-Built for the **Sky’s The Limit – Cloud9 x JetBrains Hackathon**.
+> **Category 1 Justification:** Mistake Gravity Index is an assistant-coach tool that analyzes official GRID match data to automatically identify, rank, and explain the most strategically damaging deaths in a game, generating a prioritized post-match review agenda for coaches and players.
 
 ## 🎯 The Problem
 In professional League of Legends, not all deaths are equal. A death during a quiet laning phase is a setback; a death 20 seconds before Baron spawns, without a reciprocal kill trade, can lose the game. Coaches often struggle to filter through thousands of events to find the "game-losing" mistakes.
 
 ## 💡 The Solution
-MGI identifies **untraded deaths**—kills where the victim's team fails to secure a return kill within the same fight cluster. It then applies a composite **Mistake Gravity Index (MGI) Score** based on:
+MGI satisfies the core requirements of an **Assistant Coach (Category 1)** by identifying **untraded deaths**—kills where the victim's team fails to secure a return kill within the same fight cluster. It then applies a composite **Mistake Gravity Index (MGI) Score** based on:
+- **Personalized Insights:** Highlights recurring execution errors by specific players or teams.
+- **Automated Macro Review:** Generates a prioritized review agenda based on objective proximity and trade status.
 - **Base Gravity:** Time-bucketed impact (Early, Mid, Late game).
 - **Answer Status:** Bonuses for deaths that were completely unanswered by objective trades.
 - **Objective Proximity:** High-weight bonuses for deaths occurring under "Pressure" (±30s) or "Context" (±90s) of major objectives.
