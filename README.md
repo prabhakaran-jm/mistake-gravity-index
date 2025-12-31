@@ -1,5 +1,7 @@
 # Mistake Gravity Index (MGI)
 
+> **Why this matters for coaches:** In the flood of post-match data, identifying which deaths actually cost the game is a manual, exhausting process. MGI automates this by filtering out "traded" kills and highlighting the strategically catastrophic moments where a team loses a member under objective pressure without any reciprocal gain. It turns raw event logs into an actionable hit-list of game-losing mistakes.
+
 Mistake Gravity Index is an assistant-coach analytics tool for League of Legends coaches and analysts.
 It quantifies the strategic damage of in-game mistakes by analyzing "untraded deaths" and contextualizing them with objective pressure (Baron, Drake, Towers, etc.).
 
