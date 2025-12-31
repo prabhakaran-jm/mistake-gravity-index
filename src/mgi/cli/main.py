@@ -1,10 +1,14 @@
 from __future__ import annotations
 import argparse
+import requests
 from typing import Optional
 
 from mgi.config import get_settings
 from mgi.grid.client import GridGraphQLClient
 from mgi.grid.central_data import iter_series_by_tournament, get_titles
+
+from pathlib import Path
+from mgi.grid.file_download import GridFileDownloadClient
 
 
 def cmd_titles() -> int:
@@ -37,6 +41,52 @@ def cmd_series_list(tournament_id: str, team: Optional[str], limit: int) -> int:
     print(f"\nReturned {min(count, len(series_list))} series (filtered).")
     return 0
 
+def cmd_series_fetch(series_id: str) -> int:
+    settings = get_settings()
+
+    client = GridFileDownloadClient(
+        base_url=settings.grid_file_base_url,
+        api_key=settings.grid_api_key,
+    )
+
+    listing = client.list_files(series_id)
+    files = listing.get("files", [])
+
+    if not files:
+        print("No downloadable files found for this series.")
+        print(listing)
+        return 1
+
+    # Find urls
+    events = next((f for f in files if f.get("id") == "events-grid"), None)
+    state = next((f for f in files if f.get("id") == "state-grid"), None)
+
+    out_dir = Path("data") / "raw" / f"series_{series_id}"
+    out_dir.mkdir(parents=True, exist_ok=True)
+
+    # Save listing for audit/debug
+    GridFileDownloadClient.pretty_save_json(listing, out_dir / "file_list.json")
+
+    if state and state.get("fullURL"):
+        print(f"Downloading end state: {state.get('fileName')}")
+        # end-state is JSON, save pretty
+        state_obj = requests.get(state["fullURL"], headers={"x-api-key": settings.grid_api_key}, timeout=120).json()
+        GridFileDownloadClient.pretty_save_json(state_obj, out_dir / "end_state.json")
+    else:
+        print("state-grid not available or missing fullURL.")
+
+    if events and events.get("fullURL"):
+        print(f"Downloading events: {events.get('fileName')}")
+        zip_path = out_dir / "events.jsonl.zip"
+        client.download_to(events["fullURL"], zip_path)
+        jsonl_path = out_dir / "events.jsonl"
+        client.unzip_first_jsonl(zip_path, jsonl_path)
+        print(f"Extracted: {jsonl_path}")
+    else:
+        print("events-grid not available or missing fullURL.")
+
+    print(f"Saved files under: {out_dir}")
+    return 0
 
 def build_parser() -> argparse.ArgumentParser:
     p = argparse.ArgumentParser(prog="mgi", description="Mistake Gravity Index CLI")
@@ -53,6 +103,10 @@ def build_parser() -> argparse.ArgumentParser:
     p_list.add_argument("--team", required=False, help='Filter by team name substring, e.g. "Cloud9"')
     p_list.add_argument("--limit", type=int, default=20, help="Max rows to print (default 20)")
     p_list.set_defaults(func=lambda args: cmd_series_list(args.tournament_id, args.team, args.limit))
+
+    p_fetch = series_sub.add_parser("fetch", help="Download series files via File Download API (events + end_state)")
+    p_fetch.add_argument("--series-id", required=True, help="Series ID from Central Data")
+    p_fetch.set_defaults(func=lambda args: cmd_series_fetch(args.series_id))
 
     return p
 
