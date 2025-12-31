@@ -444,12 +444,21 @@ def run(series_id: str, top: int = 10, window_seconds: int = DEFAULT_WINDOW_SECO
         else:
             near_txt = "-"
 
+        # MGI Score with color coding
+        score_val = p["mgiScore"]
+        if score_val >= 50:
+            score_txt = f"[bold red]{score_val}[/]"
+        elif score_val >= 35:
+            score_txt = f"[bold yellow]{score_val}[/]"
+        else:
+            score_txt = f"[bold green]{score_val}[/]"
+
         table.add_row(
             p["occurredAt"],
             team_label,
             p["victimName"],
             str(p["gravityMvp"]),
-            str(p["mgiScore"]),
+            score_txt,
             ans_txt,
             near_txt,
             p["details"]
