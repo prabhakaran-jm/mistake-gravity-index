@@ -10,6 +10,9 @@ from mgi.grid.central_data import iter_series_by_tournament, get_titles
 from pathlib import Path
 from mgi.grid.file_download import GridFileDownloadClient
 
+from mgi.analysis import mistakes_untraded
+
+
 
 def cmd_titles() -> int:
     settings = get_settings()
@@ -88,6 +91,9 @@ def cmd_series_fetch(series_id: str) -> int:
     print(f"Saved files under: {out_dir}")
     return 0
 
+def cmd_mistakes_untraded(series_id: str, top: int, window_seconds: int) -> int:
+    return mistakes_untraded.run(series_id=series_id, top=top, window_seconds=window_seconds)
+
 def build_parser() -> argparse.ArgumentParser:
     p = argparse.ArgumentParser(prog="mgi", description="Mistake Gravity Index CLI")
     sub = p.add_subparsers(dest="command", required=True)
@@ -107,6 +113,15 @@ def build_parser() -> argparse.ArgumentParser:
     p_fetch = series_sub.add_parser("fetch", help="Download series files via File Download API (events + end_state)")
     p_fetch.add_argument("--series-id", required=True, help="Series ID from Central Data")
     p_fetch.set_defaults(func=lambda args: cmd_series_fetch(args.series_id))
+
+    p_mistakes = sub.add_parser("mistakes", help="Mistake extraction commands")
+    mistakes_sub = p_mistakes.add_subparsers(dest="mistakes_cmd", required=True)
+
+    p_untraded = mistakes_sub.add_parser("untraded", help="Extract untraded deaths from events.jsonl")
+    p_untraded.add_argument("--series-id", required=True, help="Series ID")
+    p_untraded.add_argument("--top", type=int, default=10, help="Rows to print (default 10)")
+    p_untraded.add_argument("--window-seconds", type=int, default=10, help="Trade window in seconds (default 10)")
+    p_untraded.set_defaults(func=lambda args: cmd_mistakes_untraded(args.series_id, args.top, args.window_seconds))
 
     return p
 
