@@ -1,0 +1,94 @@
+[
+  {
+    "occurredAt": "2024-06-15T22:56:54.799000+00:00",
+    "victimName": "Jensen",
+    "victimTeamId": "47499",
+    "victimTeamName": "",
+    "kind": "untraded_death",
+    "gravity": 25,
+    "gravityMvp": 25,
+    "mgiScore": 40,
+    "answeredByObjective": false,
+    "objectiveAnswer": null,
+    "isNearObjective": true,
+    "isPressureObjective": false,
+    "nearObjective": {
+      "kind": "voidgrub",
+      "deltaSeconds": 38,
+      "teamId": "47351",
+      "playerName": "Blaber",
+      "rawType": "player-completed-slayVoidGrub",
+      "occurredAt": "2024-06-15T22:57:33.582000+00:00"
+    },
+    "pressureObjective": null,
+    "details": "Died to Jojopyun with no kill by victim team after death in same fight cluster (gap=45s)"
+  },
+  {
+    "occurredAt": "2024-06-15T23:01:00.128000+00:00",
+    "victimName": "Thanatos",
+    "victimTeamId": "47351",
+    "victimTeamName": "",
+    "kind": "untraded_death",
+    "gravity": 25,
+    "gravityMvp": 25,
+    "mgiScore": 35,
+    "answeredByObjective": true,
+    "objectiveAnswer": {
+      "kind": "voidgrub",
+      "occurredAt": "2024-06-15T23:01:56.677000+00:00",
+      "teamId": "47351",
+      "playerName": "Jojopyun",
+      "rawType": "player-completed-slayVoidGrub"
+    },
+    "isNearObjective": true,
+    "isPressureObjective": true,
+    "nearObjective": {
+      "kind": "plate",
+      "deltaSeconds": -29,
+      "teamId": "47499",
+      "playerName": "Licorice",
+      "rawType": "player-completed-destroyTurretPlateTop",
+      "occurredAt": "2024-06-15T23:00:30.526000+00:00"
+    },
+    "pressureObjective": {
+      "kind": "plate",
+      "deltaSeconds": -29,
+      "teamId": "47499",
+      "playerName": "Licorice",
+      "rawType": "player-completed-destroyTurretPlateTop",
+      "occurredAt": "2024-06-15T23:00:30.526000+00:00"
+    },
+    "details": "Died to Spica with no kill by victim team after death in same fight cluster (gap=45s)"
+  },
+  {
+    "occurredAt": "2024-06-15T23:02:35.378000+00:00",
+    "victimName": "Blaber",
+    "victimTeamId": "47351",
+    "victimTeamName": "",
+    "kind": "untraded_death",
+    "gravity": 25,
+    "gravityMvp": 25,
+    "mgiScore": 45,
+    "answeredByObjective": false,
+    "objectiveAnswer": null,
+    "isNearObjective": true,
+    "isPressureObjective": true,
+    "nearObjective": {
+      "kind": "plate",
+      "deltaSeconds": -5,
+      "teamId": "",
+      "playerName": "Dignitas",
+      "rawType": "team-completed-destroyTurretPlateBot",
+      "occurredAt": "2024-06-15T23:02:29.777000+00:00"
+    },
+    "pressureObjective": {
+      "kind": "plate",
+      "deltaSeconds": -5,
+      "teamId": "",
+      "playerName": "Dignitas",
+      "rawType": "team-completed-destroyTurretPlateBot",
+      "occurredAt": "2024-06-15T23:02:29.777000+00:00"
+    },
+    "details": "Died to Zven with no kill by victim team after death in same fight cluster (gap=45s)"
+  }
+]

@@ -1,23 +1,16 @@
 from __future__ import annotations
 from dataclasses import dataclass
 from typing import Any, Dict, Optional
-import requests
+from mgi.grid.base_client import BaseGridClient
 
 
 @dataclass
-class GridGraphQLClient:
-    url: str
-    api_key: str
-
+class GridGraphQLClient(BaseGridClient):
     def query(self, query: str, variables: Optional[Dict[str, Any]] = None) -> Dict[str, Any]:
-        headers = {
-            "x-api-key": self.api_key,
-            "content-type": "application/json",
-        }
         payload = {"query": query, "variables": variables or {}}
-
-        r = requests.post(self.url, json=payload, headers=headers, timeout=60)
-        r.raise_for_status()
+        # We don't need to specify headers here as BaseGridClient handles x-api-key
+        # and we can use post_json from BaseGridClient
+        r = self.post_json("", payload=payload, timeout=60)
         data = r.json()
 
         if "errors" in data and data["errors"]:

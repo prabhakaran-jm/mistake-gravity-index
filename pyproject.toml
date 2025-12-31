@@ -9,6 +9,7 @@ dependencies = [
   "python-dotenv",
   "pandas",
   "numpy",
+  "rich",
 ]
 
 [tool.pytest.ini_options]

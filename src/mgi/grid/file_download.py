@@ -4,28 +4,29 @@ from dataclasses import dataclass
 from pathlib import Path
 import json
 import zipfile
-import requests
+from mgi.grid.base_client import BaseGridClient
 
 
 @dataclass
-class GridFileDownloadClient:
-    base_url: str
-    api_key: str
-
+class GridFileDownloadClient(BaseGridClient):
     def list_files(self, series_id: str) -> dict:
-        url = f"{self.base_url.rstrip('/')}/file-download/list/{series_id}"
-        r = requests.get(url, headers={"x-api-key": self.api_key}, timeout=60)
-        r.raise_for_status()
+        path = f"file-download/list/{series_id}"
+        r = self.get(path, timeout=60)
         return r.json()
 
     def download_bytes(self, full_url: str) -> bytes:
-        r = requests.get(full_url, headers={"x-api-key": self.api_key}, timeout=120)
+        # Since full_url is provided, we might bypass the base_url logic in get() 
+        # but BaseGridClient.get joins paths. 
+        # Actually, full_url might be different from base_url.
+        # Looking at original code: requests.get(full_url, ...)
+        # If full_url starts with http, we should probably handle it.
+        r = self.session.get(full_url, timeout=120)
         r.raise_for_status()
         return r.content
 
     def download_to(self, full_url: str, out_path: Path) -> Path:
         out_path.parent.mkdir(parents=True, exist_ok=True)
-        with requests.get(full_url, headers={"x-api-key": self.api_key}, stream=True, timeout=180) as r:
+        with self.session.get(full_url, stream=True, timeout=180) as r:
             r.raise_for_status()
             with open(out_path, "wb") as f:
                 for chunk in r.iter_content(chunk_size=1024 * 256):

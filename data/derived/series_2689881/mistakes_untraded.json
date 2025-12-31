@@ -7,9 +7,11 @@
     "kind": "untraded_death",
     "gravity": 25,
     "gravityMvp": 25,
+    "mgiScore": 40,
     "answeredByObjective": false,
     "objectiveAnswer": null,
     "isNearObjective": true,
+    "isPressureObjective": false,
     "nearObjective": {
       "kind": "voidgrub",
       "deltaSeconds": 38,
@@ -18,6 +20,7 @@
       "rawType": "player-completed-slayVoidGrub",
       "occurredAt": "2024-06-15T22:57:33.582000+00:00"
     },
+    "pressureObjective": null,
     "details": "Died to Jojopyun with no kill by victim team after death in same fight cluster (gap=45s)"
   },
   {
@@ -28,6 +31,7 @@
     "kind": "untraded_death",
     "gravity": 25,
     "gravityMvp": 25,
+    "mgiScore": 35,
     "answeredByObjective": true,
     "objectiveAnswer": {
       "kind": "voidgrub",
@@ -37,7 +41,16 @@
       "rawType": "player-completed-slayVoidGrub"
     },
     "isNearObjective": true,
+    "isPressureObjective": true,
     "nearObjective": {
+      "kind": "plate",
+      "deltaSeconds": -29,
+      "teamId": "47499",
+      "playerName": "Licorice",
+      "rawType": "player-completed-destroyTurretPlateTop",
+      "occurredAt": "2024-06-15T23:00:30.526000+00:00"
+    },
+    "pressureObjective": {
       "kind": "plate",
       "deltaSeconds": -29,
       "teamId": "47499",
@@ -55,6 +68,7 @@
     "kind": "untraded_death",
     "gravity": 25,
     "gravityMvp": 25,
+    "mgiScore": 35,
     "answeredByObjective": true,
     "objectiveAnswer": {
       "kind": "plate",
@@ -64,7 +78,16 @@
       "rawType": "player-completed-destroyTurretPlateBot"
     },
     "isNearObjective": true,
+    "isPressureObjective": true,
     "nearObjective": {
+      "kind": "plate",
+      "deltaSeconds": -5,
+      "teamId": "",
+      "playerName": "Dignitas",
+      "rawType": "team-completed-destroyTurretPlateBot",
+      "occurredAt": "2024-06-15T23:02:29.777000+00:00"
+    },
+    "pressureObjective": {
       "kind": "plate",
       "deltaSeconds": -5,
       "teamId": "",
@@ -82,9 +105,11 @@
     "kind": "untraded_death",
     "gravity": 25,
     "gravityMvp": 25,
+    "mgiScore": 42,
     "answeredByObjective": false,
     "objectiveAnswer": null,
     "isNearObjective": true,
+    "isPressureObjective": false,
     "nearObjective": {
       "kind": "tower",
       "deltaSeconds": -69,
@@ -93,6 +118,7 @@
       "rawType": "team-destroyed-tower",
       "occurredAt": "2024-06-15T23:06:15.852000+00:00"
     },
+    "pressureObjective": null,
     "details": "Died to Zven with no kill by victim team after death in same fight cluster (gap=45s)"
   },
   {
@@ -103,10 +129,20 @@
     "kind": "untraded_death",
     "gravity": 25,
     "gravityMvp": 25,
+    "mgiScore": 47,
     "answeredByObjective": false,
     "objectiveAnswer": null,
     "isNearObjective": true,
+    "isPressureObjective": true,
     "nearObjective": {
+      "kind": "tower",
+      "deltaSeconds": -1,
+      "teamId": "47499",
+      "playerName": "Spica",
+      "rawType": "player-destroyed-tower",
+      "occurredAt": "2024-06-15T23:09:05.733000+00:00"
+    },
+    "pressureObjective": {
       "kind": "tower",
       "deltaSeconds": -1,
       "teamId": "47499",
@@ -124,10 +160,20 @@
     "kind": "untraded_death",
     "gravity": 25,
     "gravityMvp": 25,
+    "mgiScore": 47,
     "answeredByObjective": false,
     "objectiveAnswer": null,
     "isNearObjective": true,
+    "isPressureObjective": true,
     "nearObjective": {
+      "kind": "tower",
+      "deltaSeconds": -5,
+      "teamId": "47499",
+      "playerName": "Spica",
+      "rawType": "player-destroyed-tower",
+      "occurredAt": "2024-06-15T23:09:05.733000+00:00"
+    },
+    "pressureObjective": {
       "kind": "tower",
       "deltaSeconds": -5,
       "teamId": "47499",
@@ -145,6 +191,7 @@
     "kind": "untraded_death",
     "gravity": 25,
     "gravityMvp": 25,
+    "mgiScore": 28,
     "answeredByObjective": true,
     "objectiveAnswer": {
       "kind": "tower",
@@ -154,6 +201,7 @@
       "rawType": "player-destroyed-tower"
     },
     "isNearObjective": true,
+    "isPressureObjective": false,
     "nearObjective": {
       "kind": "drake_chemtech",
       "deltaSeconds": 31,
@@ -162,6 +210,7 @@
       "rawType": "player-completed-slayChemtechDrake",
       "occurredAt": "2024-06-15T23:11:57.524000+00:00"
     },
+    "pressureObjective": null,
     "details": "Died to Jensen with no kill by victim team after death in same fight cluster (gap=45s)"
   },
   {
@@ -172,9 +221,11 @@
     "kind": "untraded_death",
     "gravity": 25,
     "gravityMvp": 30,
+    "mgiScore": 51,
     "answeredByObjective": false,
     "objectiveAnswer": null,
     "isNearObjective": true,
+    "isPressureObjective": false,
     "nearObjective": {
       "kind": "baron",
       "deltaSeconds": 35,
@@ -183,6 +234,7 @@
       "rawType": "player-completed-slayBaron",
       "occurredAt": "2024-06-15T23:13:26.044000+00:00"
     },
+    "pressureObjective": null,
     "details": "Died to Zven with no kill by victim team after death in same fight cluster (gap=45s)"
   },
   {
@@ -193,9 +245,11 @@
     "kind": "untraded_death",
     "gravity": 25,
     "gravityMvp": 30,
+    "mgiScore": 51,
     "answeredByObjective": false,
     "objectiveAnswer": null,
     "isNearObjective": true,
+    "isPressureObjective": false,
     "nearObjective": {
       "kind": "baron",
       "deltaSeconds": 31,
@@ -204,6 +258,7 @@
       "rawType": "player-completed-slayBaron",
       "occurredAt": "2024-06-15T23:13:26.044000+00:00"
     },
+    "pressureObjective": null,
     "details": "Died to Zven with no kill by victim team after death in same fight cluster (gap=45s)"
   },
   {
@@ -214,10 +269,20 @@
     "kind": "untraded_death",
     "gravity": 25,
     "gravityMvp": 30,
+    "mgiScore": 52,
     "answeredByObjective": false,
     "objectiveAnswer": null,
     "isNearObjective": true,
+    "isPressureObjective": true,
     "nearObjective": {
+      "kind": "tower",
+      "deltaSeconds": -5,
+      "teamId": "",
+      "playerName": "Dignitas",
+      "rawType": "team-destroyed-tower",
+      "occurredAt": "2024-06-15T23:15:05.771000+00:00"
+    },
+    "pressureObjective": {
       "kind": "tower",
       "deltaSeconds": -5,
       "teamId": "",
@@ -235,10 +300,20 @@
     "kind": "untraded_death",
     "gravity": 25,
     "gravityMvp": 30,
+    "mgiScore": 52,
     "answeredByObjective": false,
     "objectiveAnswer": null,
     "isNearObjective": true,
+    "isPressureObjective": true,
     "nearObjective": {
+      "kind": "tower",
+      "deltaSeconds": 13,
+      "teamId": "",
+      "playerName": "Dignitas",
+      "rawType": "team-destroyed-tower",
+      "occurredAt": "2024-06-15T23:15:38.899000+00:00"
+    },
+    "pressureObjective": {
       "kind": "tower",
       "deltaSeconds": 13,
       "teamId": "",
@@ -256,10 +331,20 @@
     "kind": "untraded_death",
     "gravity": 25,
     "gravityMvp": 30,
+    "mgiScore": 52,
     "answeredByObjective": false,
     "objectiveAnswer": null,
     "isNearObjective": true,
+    "isPressureObjective": true,
     "nearObjective": {
+      "kind": "tower",
+      "deltaSeconds": 9,
+      "teamId": "",
+      "playerName": "Dignitas",
+      "rawType": "team-destroyed-tower",
+      "occurredAt": "2024-06-15T23:15:38.899000+00:00"
+    },
+    "pressureObjective": {
       "kind": "tower",
       "deltaSeconds": 9,
       "teamId": "",
@@ -277,9 +362,11 @@
     "kind": "untraded_death",
     "gravity": 25,
     "gravityMvp": 30,
+    "mgiScore": 51,
     "answeredByObjective": false,
     "objectiveAnswer": null,
     "isNearObjective": true,
+    "isPressureObjective": false,
     "nearObjective": {
       "kind": "baron",
       "deltaSeconds": 43,
@@ -288,6 +375,7 @@
       "rawType": "player-completed-slayBaron",
       "occurredAt": "2024-06-15T23:20:33.730000+00:00"
     },
+    "pressureObjective": null,
     "details": "Died to Jensen with no kill by victim team after death in same fight cluster (gap=45s)"
   },
   {
@@ -298,9 +386,11 @@
     "kind": "untraded_death",
     "gravity": 25,
     "gravityMvp": 30,
+    "mgiScore": 51,
     "answeredByObjective": false,
     "objectiveAnswer": null,
     "isNearObjective": true,
+    "isPressureObjective": false,
     "nearObjective": {
       "kind": "baron",
       "deltaSeconds": 38,
@@ -309,6 +399,7 @@
       "rawType": "player-completed-slayBaron",
       "occurredAt": "2024-06-15T23:20:33.730000+00:00"
     },
+    "pressureObjective": null,
     "details": "Died to Zven with no kill by victim team after death in same fight cluster (gap=45s)"
   },
   {
@@ -319,9 +410,11 @@
     "kind": "untraded_death",
     "gravity": 25,
     "gravityMvp": 30,
+    "mgiScore": 51,
     "answeredByObjective": false,
     "objectiveAnswer": null,
     "isNearObjective": true,
+    "isPressureObjective": false,
     "nearObjective": {
       "kind": "baron",
       "deltaSeconds": 36,
@@ -330,6 +423,7 @@
       "rawType": "player-completed-slayBaron",
       "occurredAt": "2024-06-15T23:20:33.730000+00:00"
     },
+    "pressureObjective": null,
     "details": "Died to Jensen with no kill by victim team after death in same fight cluster (gap=45s)"
   },
   {
@@ -340,10 +434,20 @@
     "kind": "untraded_death",
     "gravity": 25,
     "gravityMvp": 30,
+    "mgiScore": 52,
     "answeredByObjective": false,
     "objectiveAnswer": null,
     "isNearObjective": true,
+    "isPressureObjective": true,
     "nearObjective": {
+      "kind": "tower",
+      "deltaSeconds": -24,
+      "teamId": "",
+      "playerName": "Cloud9",
+      "rawType": "team-destroyed-tower",
+      "occurredAt": "2024-06-15T23:20:48.448000+00:00"
+    },
+    "pressureObjective": {
       "kind": "tower",
       "deltaSeconds": -24,
       "teamId": "",
@@ -361,10 +465,20 @@
     "kind": "untraded_death",
     "gravity": 25,
     "gravityMvp": 35,
+    "mgiScore": 57,
     "answeredByObjective": false,
     "objectiveAnswer": null,
     "isNearObjective": true,
+    "isPressureObjective": true,
     "nearObjective": {
+      "kind": "tower",
+      "deltaSeconds": -10,
+      "teamId": "47499",
+      "playerName": "Licorice",
+      "rawType": "player-destroyed-tower",
+      "occurredAt": "2024-06-15T23:23:59.702000+00:00"
+    },
+    "pressureObjective": {
       "kind": "tower",
       "deltaSeconds": -10,
       "teamId": "47499",
@@ -382,9 +496,11 @@
     "kind": "untraded_death",
     "gravity": 25,
     "gravityMvp": 35,
+    "mgiScore": 50,
     "answeredByObjective": false,
     "objectiveAnswer": null,
     "isNearObjective": true,
+    "isPressureObjective": false,
     "nearObjective": {
       "kind": "plate",
       "deltaSeconds": 65,
@@ -393,6 +509,7 @@
       "rawType": "team-completed-destroyTurretPlateBot",
       "occurredAt": "2024-06-15T23:50:09.359000+00:00"
     },
+    "pressureObjective": null,
     "details": "Died to VULCAN with no kill by victim team after death in same fight cluster (gap=45s)"
   },
   {
@@ -403,9 +520,11 @@
     "kind": "untraded_death",
     "gravity": 25,
     "gravityMvp": 35,
+    "mgiScore": 50,
     "answeredByObjective": false,
     "objectiveAnswer": null,
     "isNearObjective": true,
+    "isPressureObjective": false,
     "nearObjective": {
       "kind": "voidgrub",
       "deltaSeconds": -47,
@@ -414,6 +533,7 @@
       "rawType": "player-completed-slayVoidGrub",
       "occurredAt": "2024-06-15T23:50:35.716000+00:00"
     },
+    "pressureObjective": null,
     "details": "Died to Spica with no kill by victim team after death in same fight cluster (gap=45s)"
   },
   {
@@ -424,6 +544,7 @@
     "kind": "untraded_death",
     "gravity": 25,
     "gravityMvp": 35,
+    "mgiScore": 45,
     "answeredByObjective": true,
     "objectiveAnswer": {
       "kind": "plate",
@@ -433,7 +554,16 @@
       "rawType": "player-completed-destroyTurretPlateBot"
     },
     "isNearObjective": true,
+    "isPressureObjective": true,
     "nearObjective": {
+      "kind": "plate",
+      "deltaSeconds": -10,
+      "teamId": "",
+      "playerName": "Cloud9",
+      "rawType": "team-completed-destroyTurretPlateBot",
+      "occurredAt": "2024-06-15T23:53:42.914000+00:00"
+    },
+    "pressureObjective": {
       "kind": "plate",
       "deltaSeconds": -10,
       "teamId": "",
@@ -451,6 +581,7 @@
     "kind": "untraded_death",
     "gravity": 25,
     "gravityMvp": 35,
+    "mgiScore": 45,
     "answeredByObjective": true,
     "objectiveAnswer": {
       "kind": "plate",
@@ -460,7 +591,16 @@
       "rawType": "player-completed-destroyTurretPlateBot"
     },
     "isNearObjective": true,
+    "isPressureObjective": true,
     "nearObjective": {
+      "kind": "plate",
+      "deltaSeconds": -15,
+      "teamId": "",
+      "playerName": "Cloud9",
+      "rawType": "team-completed-destroyTurretPlateBot",
+      "occurredAt": "2024-06-15T23:53:42.914000+00:00"
+    },
+    "pressureObjective": {
       "kind": "plate",
       "deltaSeconds": -15,
       "teamId": "",
@@ -478,10 +618,20 @@
     "kind": "untraded_death",
     "gravity": 25,
     "gravityMvp": 35,
+    "mgiScore": 55,
     "answeredByObjective": false,
     "objectiveAnswer": null,
     "isNearObjective": true,
+    "isPressureObjective": true,
     "nearObjective": {
+      "kind": "plate",
+      "deltaSeconds": 12,
+      "teamId": "47351",
+      "playerName": "Jojopyun",
+      "rawType": "player-completed-destroyTurretPlateBot",
+      "occurredAt": "2024-06-15T23:56:01.848000+00:00"
+    },
+    "pressureObjective": {
       "kind": "plate",
       "deltaSeconds": 12,
       "teamId": "47351",
@@ -499,9 +649,11 @@
     "kind": "untraded_death",
     "gravity": 25,
     "gravityMvp": 35,
+    "mgiScore": 52,
     "answeredByObjective": false,
     "objectiveAnswer": null,
     "isNearObjective": true,
+    "isPressureObjective": false,
     "nearObjective": {
       "kind": "tower",
       "deltaSeconds": -31,
@@ -510,6 +662,7 @@
       "rawType": "player-destroyed-tower",
       "occurredAt": "2024-06-15T23:56:33.326000+00:00"
     },
+    "pressureObjective": null,
     "details": "Died to Jensen with no kill by victim team after death in same fight cluster (gap=45s)"
   },
   {
@@ -520,10 +673,13 @@
     "kind": "untraded_death",
     "gravity": 25,
     "gravityMvp": 35,
+    "mgiScore": 45,
     "answeredByObjective": false,
     "objectiveAnswer": null,
     "isNearObjective": false,
+    "isPressureObjective": false,
     "nearObjective": null,
+    "pressureObjective": null,
     "details": "Died to Spica with no kill by victim team after death in same fight cluster (gap=45s)"
   },
   {
@@ -534,10 +690,20 @@
     "kind": "untraded_death",
     "gravity": 25,
     "gravityMvp": 35,
+    "mgiScore": 57,
     "answeredByObjective": false,
     "objectiveAnswer": null,
     "isNearObjective": true,
+    "isPressureObjective": true,
     "nearObjective": {
+      "kind": "tower",
+      "deltaSeconds": -13,
+      "teamId": "47351",
+      "playerName": "Blaber",
+      "rawType": "player-destroyed-tower",
+      "occurredAt": "2024-06-16T00:02:21.792000+00:00"
+    },
+    "pressureObjective": {
       "kind": "tower",
       "deltaSeconds": -13,
       "teamId": "47351",
@@ -555,10 +721,20 @@
     "kind": "untraded_death",
     "gravity": 25,
     "gravityMvp": 35,
+    "mgiScore": 57,
     "answeredByObjective": false,
     "objectiveAnswer": null,
     "isNearObjective": true,
+    "isPressureObjective": true,
     "nearObjective": {
+      "kind": "tower",
+      "deltaSeconds": -16,
+      "teamId": "47351",
+      "playerName": "Blaber",
+      "rawType": "player-destroyed-tower",
+      "occurredAt": "2024-06-16T00:02:21.792000+00:00"
+    },
+    "pressureObjective": {
       "kind": "tower",
       "deltaSeconds": -16,
       "teamId": "47351",
@@ -576,10 +752,20 @@
     "kind": "untraded_death",
     "gravity": 25,
     "gravityMvp": 35,
+    "mgiScore": 57,
     "answeredByObjective": false,
     "objectiveAnswer": null,
     "isNearObjective": true,
+    "isPressureObjective": true,
     "nearObjective": {
+      "kind": "tower",
+      "deltaSeconds": -11,
+      "teamId": "47351",
+      "playerName": "Berserker",
+      "rawType": "player-destroyed-tower",
+      "occurredAt": "2024-06-16T00:07:48.532000+00:00"
+    },
+    "pressureObjective": {
       "kind": "tower",
       "deltaSeconds": -11,
       "teamId": "47351",
@@ -597,6 +783,7 @@
     "kind": "untraded_death",
     "gravity": 25,
     "gravityMvp": 35,
+    "mgiScore": 47,
     "answeredByObjective": true,
     "objectiveAnswer": {
       "kind": "tower",
@@ -606,7 +793,16 @@
       "rawType": "player-destroyed-tower"
     },
     "isNearObjective": true,
+    "isPressureObjective": true,
     "nearObjective": {
+      "kind": "tower",
+      "deltaSeconds": 0,
+      "teamId": "47351",
+      "playerName": "Berserker",
+      "rawType": "player-destroyed-tower",
+      "occurredAt": "2024-06-16T00:09:43.805000+00:00"
+    },
+    "pressureObjective": {
       "kind": "tower",
       "deltaSeconds": 0,
       "teamId": "47351",
@@ -624,10 +820,20 @@
     "kind": "untraded_death",
     "gravity": 25,
     "gravityMvp": 35,
+    "mgiScore": 57,
     "answeredByObjective": false,
     "objectiveAnswer": null,
     "isNearObjective": true,
+    "isPressureObjective": true,
     "nearObjective": {
+      "kind": "tower",
+      "deltaSeconds": 9,
+      "teamId": "47499",
+      "playerName": "Zven",
+      "rawType": "player-destroyed-tower",
+      "occurredAt": "2024-06-16T00:10:24.966000+00:00"
+    },
+    "pressureObjective": {
       "kind": "tower",
       "deltaSeconds": 9,
       "teamId": "47499",
@@ -645,10 +851,20 @@
     "kind": "untraded_death",
     "gravity": 25,
     "gravityMvp": 35,
+    "mgiScore": 57,
     "answeredByObjective": false,
     "objectiveAnswer": null,
     "isNearObjective": true,
+    "isPressureObjective": true,
     "nearObjective": {
+      "kind": "tower",
+      "deltaSeconds": 8,
+      "teamId": "47499",
+      "playerName": "Zven",
+      "rawType": "player-destroyed-tower",
+      "occurredAt": "2024-06-16T00:10:24.966000+00:00"
+    },
+    "pressureObjective": {
       "kind": "tower",
       "deltaSeconds": 8,
       "teamId": "47499",
@@ -666,10 +882,20 @@
     "kind": "untraded_death",
     "gravity": 25,
     "gravityMvp": 35,
+    "mgiScore": 57,
     "answeredByObjective": false,
     "objectiveAnswer": null,
     "isNearObjective": true,
+    "isPressureObjective": true,
     "nearObjective": {
+      "kind": "tower",
+      "deltaSeconds": 4,
+      "teamId": "47499",
+      "playerName": "Zven",
+      "rawType": "player-destroyed-tower",
+      "occurredAt": "2024-06-16T00:10:24.966000+00:00"
+    },
+    "pressureObjective": {
       "kind": "tower",
       "deltaSeconds": 4,
       "teamId": "47499",
@@ -687,10 +913,20 @@
     "kind": "untraded_death",
     "gravity": 25,
     "gravityMvp": 35,
+    "mgiScore": 53,
     "answeredByObjective": false,
     "objectiveAnswer": null,
     "isNearObjective": true,
+    "isPressureObjective": true,
     "nearObjective": {
+      "kind": "drake_ocean",
+      "deltaSeconds": 14,
+      "teamId": "47351",
+      "playerName": "Blaber",
+      "rawType": "player-completed-slayOceanDrake",
+      "occurredAt": "2024-06-16T00:12:55.413000+00:00"
+    },
+    "pressureObjective": {
       "kind": "drake_ocean",
       "deltaSeconds": 14,
       "teamId": "47351",
@@ -708,10 +944,13 @@
     "kind": "untraded_death",
     "gravity": 25,
     "gravityMvp": 35,
+    "mgiScore": 45,
     "answeredByObjective": false,
     "objectiveAnswer": null,
     "isNearObjective": false,
+    "isPressureObjective": false,
     "nearObjective": null,
+    "pressureObjective": null,
     "details": "Died to VULCAN with no kill by victim team after death in same fight cluster (gap=45s)"
   },
   {
@@ -722,10 +961,20 @@
     "kind": "untraded_death",
     "gravity": 25,
     "gravityMvp": 35,
+    "mgiScore": 61,
     "answeredByObjective": false,
     "objectiveAnswer": null,
     "isNearObjective": true,
+    "isPressureObjective": true,
     "nearObjective": {
+      "kind": "baron",
+      "deltaSeconds": 20,
+      "teamId": "47351",
+      "playerName": "Blaber",
+      "rawType": "player-completed-slayBaron",
+      "occurredAt": "2024-06-16T00:16:45.821000+00:00"
+    },
+    "pressureObjective": {
       "kind": "baron",
       "deltaSeconds": 20,
       "teamId": "47351",
@@ -743,10 +992,20 @@
     "kind": "untraded_death",
     "gravity": 25,
     "gravityMvp": 35,
+    "mgiScore": 53,
     "answeredByObjective": false,
     "objectiveAnswer": null,
     "isNearObjective": true,
+    "isPressureObjective": true,
     "nearObjective": {
+      "kind": "drake_ocean",
+      "deltaSeconds": 23,
+      "teamId": "47351",
+      "playerName": "Blaber",
+      "rawType": "player-completed-slayOceanDrake",
+      "occurredAt": "2024-06-16T00:18:20.333000+00:00"
+    },
+    "pressureObjective": {
       "kind": "drake_ocean",
       "deltaSeconds": 23,
       "teamId": "47351",
@@ -764,10 +1023,20 @@
     "kind": "untraded_death",
     "gravity": 25,
     "gravityMvp": 35,
+    "mgiScore": 57,
     "answeredByObjective": false,
     "objectiveAnswer": null,
     "isNearObjective": true,
+    "isPressureObjective": true,
     "nearObjective": {
+      "kind": "tower",
+      "deltaSeconds": -3,
+      "teamId": "",
+      "playerName": "Cloud9",
+      "rawType": "team-destroyed-tower",
+      "occurredAt": "2024-06-16T00:24:23.395000+00:00"
+    },
+    "pressureObjective": {
       "kind": "tower",
       "deltaSeconds": -3,
       "teamId": "",
@@ -785,10 +1054,20 @@
     "kind": "untraded_death",
     "gravity": 25,
     "gravityMvp": 35,
+    "mgiScore": 57,
     "answeredByObjective": false,
     "objectiveAnswer": null,
     "isNearObjective": true,
+    "isPressureObjective": true,
     "nearObjective": {
+      "kind": "tower",
+      "deltaSeconds": 5,
+      "teamId": "47351",
+      "playerName": "Berserker",
+      "rawType": "player-destroyed-tower",
+      "occurredAt": "2024-06-16T00:24:47.903000+00:00"
+    },
+    "pressureObjective": {
       "kind": "tower",
       "deltaSeconds": 5,
       "teamId": "47351",
@@ -806,10 +1085,20 @@
     "kind": "untraded_death",
     "gravity": 25,
     "gravityMvp": 35,
+    "mgiScore": 57,
     "answeredByObjective": false,
     "objectiveAnswer": null,
     "isNearObjective": true,
+    "isPressureObjective": true,
     "nearObjective": {
+      "kind": "tower",
+      "deltaSeconds": 2,
+      "teamId": "47351",
+      "playerName": "Berserker",
+      "rawType": "player-destroyed-tower",
+      "occurredAt": "2024-06-16T00:24:47.903000+00:00"
+    },
+    "pressureObjective": {
       "kind": "tower",
       "deltaSeconds": 2,
       "teamId": "47351",
@@ -827,10 +1116,20 @@
     "kind": "untraded_death",
     "gravity": 25,
     "gravityMvp": 35,
+    "mgiScore": 57,
     "answeredByObjective": false,
     "objectiveAnswer": null,
     "isNearObjective": true,
+    "isPressureObjective": true,
     "nearObjective": {
+      "kind": "tower",
+      "deltaSeconds": 1,
+      "teamId": "47351",
+      "playerName": "Berserker",
+      "rawType": "player-destroyed-tower",
+      "occurredAt": "2024-06-16T00:24:47.903000+00:00"
+    },
+    "pressureObjective": {
       "kind": "tower",
       "deltaSeconds": 1,
       "teamId": "47351",
@@ -848,10 +1147,20 @@
     "kind": "untraded_death",
     "gravity": 25,
     "gravityMvp": 35,
+    "mgiScore": 57,
     "answeredByObjective": false,
     "objectiveAnswer": null,
     "isNearObjective": true,
+    "isPressureObjective": true,
     "nearObjective": {
+      "kind": "tower",
+      "deltaSeconds": 1,
+      "teamId": "47351",
+      "playerName": "VULCAN",
+      "rawType": "player-destroyed-tower",
+      "occurredAt": "2024-06-16T00:24:51.608000+00:00"
+    },
+    "pressureObjective": {
       "kind": "tower",
       "deltaSeconds": 1,
       "teamId": "47351",
@@ -869,6 +1178,7 @@
     "kind": "untraded_death",
     "gravity": 25,
     "gravityMvp": 35,
+    "mgiScore": 45,
     "answeredByObjective": true,
     "objectiveAnswer": {
       "kind": "plate",
@@ -878,7 +1188,16 @@
       "rawType": "player-completed-destroyTurretPlateBot"
     },
     "isNearObjective": true,
+    "isPressureObjective": true,
     "nearObjective": {
+      "kind": "plate",
+      "deltaSeconds": 0,
+      "teamId": "47499",
+      "playerName": "Isles",
+      "rawType": "player-completed-destroyTurretPlateBot",
+      "occurredAt": "2024-06-16T00:48:38.866000+00:00"
+    },
+    "pressureObjective": {
       "kind": "plate",
       "deltaSeconds": 0,
       "teamId": "47499",
@@ -896,10 +1215,20 @@
     "kind": "untraded_death",
     "gravity": 25,
     "gravityMvp": 35,
+    "mgiScore": 55,
     "answeredByObjective": false,
     "objectiveAnswer": null,
     "isNearObjective": true,
+    "isPressureObjective": true,
     "nearObjective": {
+      "kind": "plate",
+      "deltaSeconds": 0,
+      "teamId": "47499",
+      "playerName": "Jensen",
+      "rawType": "player-completed-destroyTurretPlateBot",
+      "occurredAt": "2024-06-16T00:52:38.965000+00:00"
+    },
+    "pressureObjective": {
       "kind": "plate",
       "deltaSeconds": 0,
       "teamId": "47499",
@@ -917,9 +1246,11 @@
     "kind": "untraded_death",
     "gravity": 25,
     "gravityMvp": 35,
+    "mgiScore": 52,
     "answeredByObjective": false,
     "objectiveAnswer": null,
     "isNearObjective": true,
+    "isPressureObjective": false,
     "nearObjective": {
       "kind": "tower",
       "deltaSeconds": -46,
@@ -928,6 +1259,7 @@
       "rawType": "team-destroyed-tower",
       "occurredAt": "2024-06-16T00:55:09.105000+00:00"
     },
+    "pressureObjective": null,
     "details": "Died to Berserker with no kill by victim team after death in same fight cluster (gap=45s)"
   },
   {
@@ -938,6 +1270,7 @@
     "kind": "untraded_death",
     "gravity": 25,
     "gravityMvp": 35,
+    "mgiScore": 47,
     "answeredByObjective": true,
     "objectiveAnswer": {
       "kind": "tower",
@@ -947,7 +1280,16 @@
       "rawType": "player-destroyed-tower"
     },
     "isNearObjective": true,
+    "isPressureObjective": true,
     "nearObjective": {
+      "kind": "tower",
+      "deltaSeconds": 23,
+      "teamId": "47351",
+      "playerName": "Berserker",
+      "rawType": "player-destroyed-tower",
+      "occurredAt": "2024-06-16T00:57:15.469000+00:00"
+    },
+    "pressureObjective": {
       "kind": "tower",
       "deltaSeconds": 23,
       "teamId": "47351",
@@ -965,6 +1307,7 @@
     "kind": "untraded_death",
     "gravity": 25,
     "gravityMvp": 35,
+    "mgiScore": 38,
     "answeredByObjective": true,
     "objectiveAnswer": {
       "kind": "drake_mountain",
@@ -974,6 +1317,7 @@
       "rawType": "player-completed-slayMountainDrake"
     },
     "isNearObjective": true,
+    "isPressureObjective": false,
     "nearObjective": {
       "kind": "drake_mountain",
       "deltaSeconds": 45,
@@ -982,6 +1326,7 @@
       "rawType": "player-completed-slayMountainDrake",
       "occurredAt": "2024-06-16T01:00:34.314000+00:00"
     },
+    "pressureObjective": null,
     "details": "Died to Berserker with no kill by victim team after death in same fight cluster (gap=45s)"
   },
   {
@@ -992,10 +1337,20 @@
     "kind": "untraded_death",
     "gravity": 25,
     "gravityMvp": 35,
+    "mgiScore": 61,
     "answeredByObjective": false,
     "objectiveAnswer": null,
     "isNearObjective": true,
+    "isPressureObjective": true,
     "nearObjective": {
+      "kind": "baron",
+      "deltaSeconds": -14,
+      "teamId": "47351",
+      "playerName": "Blaber",
+      "rawType": "player-completed-slayBaron",
+      "occurredAt": "2024-06-16T01:03:32.661000+00:00"
+    },
+    "pressureObjective": {
       "kind": "baron",
       "deltaSeconds": -14,
       "teamId": "47351",
@@ -1013,10 +1368,20 @@
     "kind": "untraded_death",
     "gravity": 25,
     "gravityMvp": 35,
+    "mgiScore": 53,
     "answeredByObjective": false,
     "objectiveAnswer": null,
     "isNearObjective": true,
+    "isPressureObjective": true,
     "nearObjective": {
+      "kind": "drake_mountain",
+      "deltaSeconds": 16,
+      "teamId": "47351",
+      "playerName": "Blaber",
+      "rawType": "player-completed-slayMountainDrake",
+      "occurredAt": "2024-06-16T01:05:55.886000+00:00"
+    },
+    "pressureObjective": {
       "kind": "drake_mountain",
       "deltaSeconds": 16,
       "teamId": "47351",
@@ -1034,10 +1399,20 @@
     "kind": "untraded_death",
     "gravity": 25,
     "gravityMvp": 35,
+    "mgiScore": 53,
     "answeredByObjective": false,
     "objectiveAnswer": null,
     "isNearObjective": true,
+    "isPressureObjective": true,
     "nearObjective": {
+      "kind": "drake_mountain",
+      "deltaSeconds": 15,
+      "teamId": "47351",
+      "playerName": "Blaber",
+      "rawType": "player-completed-slayMountainDrake",
+      "occurredAt": "2024-06-16T01:05:55.886000+00:00"
+    },
+    "pressureObjective": {
       "kind": "drake_mountain",
       "deltaSeconds": 15,
       "teamId": "47351",
@@ -1055,6 +1430,7 @@
     "kind": "untraded_death",
     "gravity": 25,
     "gravityMvp": 35,
+    "mgiScore": 47,
     "answeredByObjective": true,
     "objectiveAnswer": {
       "kind": "tower",
@@ -1064,7 +1440,16 @@
       "rawType": "player-destroyed-tower"
     },
     "isNearObjective": true,
+    "isPressureObjective": true,
     "nearObjective": {
+      "kind": "tower",
+      "deltaSeconds": 27,
+      "teamId": "47351",
+      "playerName": "Berserker",
+      "rawType": "player-destroyed-tower",
+      "occurredAt": "2024-06-16T01:09:43.067000+00:00"
+    },
+    "pressureObjective": {
       "kind": "tower",
       "deltaSeconds": 27,
       "teamId": "47351",
@@ -1082,6 +1467,7 @@
     "kind": "untraded_death",
     "gravity": 25,
     "gravityMvp": 35,
+    "mgiScore": 47,
     "answeredByObjective": true,
     "objectiveAnswer": {
       "kind": "tower",
@@ -1091,7 +1477,16 @@
       "rawType": "player-destroyed-tower"
     },
     "isNearObjective": true,
+    "isPressureObjective": true,
     "nearObjective": {
+      "kind": "tower",
+      "deltaSeconds": 22,
+      "teamId": "47351",
+      "playerName": "Berserker",
+      "rawType": "player-destroyed-tower",
+      "occurredAt": "2024-06-16T01:09:43.067000+00:00"
+    },
+    "pressureObjective": {
       "kind": "tower",
       "deltaSeconds": 22,
       "teamId": "47351",
@@ -1109,10 +1504,20 @@
     "kind": "untraded_death",
     "gravity": 25,
     "gravityMvp": 35,
+    "mgiScore": 57,
     "answeredByObjective": false,
     "objectiveAnswer": null,
     "isNearObjective": true,
+    "isPressureObjective": true,
     "nearObjective": {
+      "kind": "tower",
+      "deltaSeconds": 14,
+      "teamId": "",
+      "playerName": "Dignitas",
+      "rawType": "team-destroyed-tower",
+      "occurredAt": "2024-06-16T01:11:41.727000+00:00"
+    },
+    "pressureObjective": {
       "kind": "tower",
       "deltaSeconds": 14,
       "teamId": "",
@@ -1130,10 +1535,20 @@
     "kind": "untraded_death",
     "gravity": 25,
     "gravityMvp": 35,
+    "mgiScore": 57,
     "answeredByObjective": false,
     "objectiveAnswer": null,
     "isNearObjective": true,
+    "isPressureObjective": true,
     "nearObjective": {
+      "kind": "tower",
+      "deltaSeconds": -25,
+      "teamId": "",
+      "playerName": "Dignitas",
+      "rawType": "team-destroyed-tower",
+      "occurredAt": "2024-06-16T01:12:46.973000+00:00"
+    },
+    "pressureObjective": {
       "kind": "tower",
       "deltaSeconds": -25,
       "teamId": "",
@@ -1151,10 +1566,20 @@
     "kind": "untraded_death",
     "gravity": 25,
     "gravityMvp": 35,
+    "mgiScore": 57,
     "answeredByObjective": false,
     "objectiveAnswer": null,
     "isNearObjective": true,
+    "isPressureObjective": true,
     "nearObjective": {
+      "kind": "tower",
+      "deltaSeconds": -29,
+      "teamId": "",
+      "playerName": "Dignitas",
+      "rawType": "team-destroyed-tower",
+      "occurredAt": "2024-06-16T01:12:46.973000+00:00"
+    },
+    "pressureObjective": {
       "kind": "tower",
       "deltaSeconds": -29,
       "teamId": "",
@@ -1172,10 +1597,20 @@
     "kind": "untraded_death",
     "gravity": 25,
     "gravityMvp": 35,
+    "mgiScore": 56,
     "answeredByObjective": false,
     "objectiveAnswer": null,
     "isNearObjective": true,
+    "isPressureObjective": true,
     "nearObjective": {
+      "kind": "fortifier",
+      "deltaSeconds": 1,
+      "teamId": "47351",
+      "playerName": "Jojopyun",
+      "rawType": "player-destroyed-fortifier",
+      "occurredAt": "2024-06-16T01:14:04.476000+00:00"
+    },
+    "pressureObjective": {
       "kind": "fortifier",
       "deltaSeconds": 1,
       "teamId": "47351",
@@ -1193,9 +1628,11 @@
     "kind": "untraded_death",
     "gravity": 25,
     "gravityMvp": 35,
+    "mgiScore": 56,
     "answeredByObjective": false,
     "objectiveAnswer": null,
     "isNearObjective": true,
+    "isPressureObjective": false,
     "nearObjective": {
       "kind": "baron",
       "deltaSeconds": 31,
@@ -1204,6 +1641,7 @@
       "rawType": "player-completed-slayBaron",
       "occurredAt": "2024-06-16T01:16:41.082000+00:00"
     },
+    "pressureObjective": null,
     "details": "Died to Thanatos with no kill by victim team after death in same fight cluster (gap=45s)"
   },
   {
@@ -1214,10 +1652,20 @@
     "kind": "untraded_death",
     "gravity": 25,
     "gravityMvp": 35,
+    "mgiScore": 61,
     "answeredByObjective": false,
     "objectiveAnswer": null,
     "isNearObjective": true,
+    "isPressureObjective": true,
     "nearObjective": {
+      "kind": "baron",
+      "deltaSeconds": -18,
+      "teamId": "47351",
+      "playerName": "Blaber",
+      "rawType": "player-completed-slayBaron",
+      "occurredAt": "2024-06-16T01:16:41.082000+00:00"
+    },
+    "pressureObjective": {
       "kind": "baron",
       "deltaSeconds": -18,
       "teamId": "47351",
@@ -1235,10 +1683,20 @@
     "kind": "untraded_death",
     "gravity": 25,
     "gravityMvp": 35,
+    "mgiScore": 57,
     "answeredByObjective": false,
     "objectiveAnswer": null,
     "isNearObjective": true,
+    "isPressureObjective": true,
     "nearObjective": {
+      "kind": "tower",
+      "deltaSeconds": -2,
+      "teamId": "",
+      "playerName": "Cloud9",
+      "rawType": "team-destroyed-tower",
+      "occurredAt": "2024-06-16T01:17:25.811000+00:00"
+    },
+    "pressureObjective": {
       "kind": "tower",
       "deltaSeconds": -2,
       "teamId": "",
@@ -1256,10 +1714,20 @@
     "kind": "untraded_death",
     "gravity": 25,
     "gravityMvp": 35,
+    "mgiScore": 57,
     "answeredByObjective": false,
     "objectiveAnswer": null,
     "isNearObjective": true,
+    "isPressureObjective": true,
     "nearObjective": {
+      "kind": "tower",
+      "deltaSeconds": 2,
+      "teamId": "47351",
+      "playerName": "Blaber",
+      "rawType": "player-destroyed-tower",
+      "occurredAt": "2024-06-16T01:17:37.398000+00:00"
+    },
+    "pressureObjective": {
       "kind": "tower",
       "deltaSeconds": 2,
       "teamId": "47351",

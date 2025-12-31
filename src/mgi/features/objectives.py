@@ -1,17 +1,13 @@
 from __future__ import annotations
 
 import json
+from mgi.common.time import parse_dt
 from dataclasses import dataclass
 from datetime import datetime, timezone, timedelta
 from pathlib import Path
 from typing import Any, Dict, Iterable, Optional, Sequence
 
 
-def _parse_dt(s: str) -> datetime:
-    # example: "2024-06-15T22:45:00.000Z"
-    if s.endswith("Z"):
-        s = s[:-1] + "+00:00"
-    return datetime.fromisoformat(s).astimezone(timezone.utc)
 
 
 @dataclass(frozen=True)
@@ -73,7 +69,7 @@ def iter_objectives_from_events_jsonl(path: Path) -> Iterable[ObjectiveEvent]:
 
             try:
                 envelope: Dict[str, Any] = json.loads(line)
-                occurred_at = _parse_dt(envelope["occurredAt"])
+                occurred_at = parse_dt(envelope["occurredAt"])
             except Exception:
                 continue
 
