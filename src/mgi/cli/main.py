@@ -10,8 +10,9 @@ from mgi.grid.central_data import iter_series_by_tournament, get_titles
 from pathlib import Path
 from mgi.grid.file_download import GridFileDownloadClient
 
-from mgi.analysis import mistakes_untraded
+from mgi.features import mistakes_untraded
 
+from mgi.logging_conf import setup_logging
 
 
 def cmd_titles() -> int:
@@ -127,10 +128,18 @@ def build_parser() -> argparse.ArgumentParser:
 
 
 def main() -> int:
+    setup_logging()
     parser = build_parser()
     args = parser.parse_args()
     return int(args.func(args))
 
 
 if __name__ == "__main__":
-    raise SystemExit(main())
+    try:
+        raise SystemExit(main())
+    except KeyboardInterrupt:
+        print("\nInterrupted.")
+        raise SystemExit(130)
+    except Exception as e:
+        print(f"\nError: {e}")
+        raise SystemExit(1)

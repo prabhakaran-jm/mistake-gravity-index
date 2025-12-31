@@ -7,7 +7,18 @@
     "kind": "untraded_death",
     "gravity": 25,
     "gravityMvp": 25,
-    "details": "Died to Jojopyun with no trade in 10s"
+    "answeredByObjective": false,
+    "objectiveAnswer": null,
+    "isNearObjective": true,
+    "nearObjective": {
+      "kind": "voidgrub",
+      "deltaSeconds": 38,
+      "teamId": "47351",
+      "playerName": "Blaber",
+      "rawType": "player-completed-slayVoidGrub",
+      "occurredAt": "2024-06-15T22:57:33.582000+00:00"
+    },
+    "details": "Died to Jojopyun with no kill by victim team after death in same fight cluster (gap=45s)"
   },
   {
     "occurredAt": "2024-06-15T23:01:00.128000+00:00",
@@ -17,7 +28,24 @@
     "kind": "untraded_death",
     "gravity": 25,
     "gravityMvp": 25,
-    "details": "Died to Spica with no trade in 10s"
+    "answeredByObjective": true,
+    "objectiveAnswer": {
+      "kind": "voidgrub",
+      "occurredAt": "2024-06-15T23:01:56.677000+00:00",
+      "teamId": "47351",
+      "playerName": "Jojopyun",
+      "rawType": "player-completed-slayVoidGrub"
+    },
+    "isNearObjective": true,
+    "nearObjective": {
+      "kind": "plate",
+      "deltaSeconds": -29,
+      "teamId": "47499",
+      "playerName": "Licorice",
+      "rawType": "player-completed-destroyTurretPlateTop",
+      "occurredAt": "2024-06-15T23:00:30.526000+00:00"
+    },
+    "details": "Died to Spica with no kill by victim team after death in same fight cluster (gap=45s)"
   },
   {
     "occurredAt": "2024-06-15T23:02:35.378000+00:00",
@@ -27,7 +55,24 @@
     "kind": "untraded_death",
     "gravity": 25,
     "gravityMvp": 25,
-    "details": "Died to Zven with no trade in 10s"
+    "answeredByObjective": true,
+    "objectiveAnswer": {
+      "kind": "plate",
+      "occurredAt": "2024-06-15T23:03:57.831000+00:00",
+      "teamId": "47351",
+      "playerName": "Jojopyun",
+      "rawType": "player-completed-destroyTurretPlateBot"
+    },
+    "isNearObjective": true,
+    "nearObjective": {
+      "kind": "plate",
+      "deltaSeconds": -5,
+      "teamId": "",
+      "playerName": "Dignitas",
+      "rawType": "team-completed-destroyTurretPlateBot",
+      "occurredAt": "2024-06-15T23:02:29.777000+00:00"
+    },
+    "details": "Died to Zven with no kill by victim team after death in same fight cluster (gap=45s)"
   },
   {
     "occurredAt": "2024-06-15T23:07:25.518000+00:00",
@@ -37,7 +82,18 @@
     "kind": "untraded_death",
     "gravity": 25,
     "gravityMvp": 25,
-    "details": "Died to Zven with no trade in 10s"
+    "answeredByObjective": false,
+    "objectiveAnswer": null,
+    "isNearObjective": true,
+    "nearObjective": {
+      "kind": "tower",
+      "deltaSeconds": -69,
+      "teamId": "",
+      "playerName": "Dignitas",
+      "rawType": "team-destroyed-tower",
+      "occurredAt": "2024-06-15T23:06:15.852000+00:00"
+    },
+    "details": "Died to Zven with no kill by victim team after death in same fight cluster (gap=45s)"
   },
   {
     "occurredAt": "2024-06-15T23:09:06.857000+00:00",
@@ -47,7 +103,18 @@
     "kind": "untraded_death",
     "gravity": 25,
     "gravityMvp": 25,
-    "details": "Died to Berserker with no trade in 10s"
+    "answeredByObjective": false,
+    "objectiveAnswer": null,
+    "isNearObjective": true,
+    "nearObjective": {
+      "kind": "tower",
+      "deltaSeconds": -1,
+      "teamId": "47499",
+      "playerName": "Spica",
+      "rawType": "player-destroyed-tower",
+      "occurredAt": "2024-06-15T23:09:05.733000+00:00"
+    },
+    "details": "Died to Berserker with no kill by victim team after death in same fight cluster (gap=45s)"
   },
   {
     "occurredAt": "2024-06-15T23:09:11.490000+00:00",
@@ -57,7 +124,18 @@
     "kind": "untraded_death",
     "gravity": 25,
     "gravityMvp": 25,
-    "details": "Died to Jojopyun with no trade in 10s"
+    "answeredByObjective": false,
+    "objectiveAnswer": null,
+    "isNearObjective": true,
+    "nearObjective": {
+      "kind": "tower",
+      "deltaSeconds": -5,
+      "teamId": "47499",
+      "playerName": "Spica",
+      "rawType": "player-destroyed-tower",
+      "occurredAt": "2024-06-15T23:09:05.733000+00:00"
+    },
+    "details": "Died to Jojopyun with no kill by victim team after death in same fight cluster (gap=45s)"
   },
   {
     "occurredAt": "2024-06-15T23:11:25.654000+00:00",
@@ -67,7 +145,24 @@
     "kind": "untraded_death",
     "gravity": 25,
     "gravityMvp": 25,
-    "details": "Died to Jensen with no trade in 10s"
+    "answeredByObjective": true,
+    "objectiveAnswer": {
+      "kind": "tower",
+      "occurredAt": "2024-06-15T23:12:01.717000+00:00",
+      "teamId": "47351",
+      "playerName": "Jojopyun",
+      "rawType": "player-destroyed-tower"
+    },
+    "isNearObjective": true,
+    "nearObjective": {
+      "kind": "drake_chemtech",
+      "deltaSeconds": 31,
+      "teamId": "47499",
+      "playerName": "Zven",
+      "rawType": "player-completed-slayChemtechDrake",
+      "occurredAt": "2024-06-15T23:11:57.524000+00:00"
+    },
+    "details": "Died to Jensen with no kill by victim team after death in same fight cluster (gap=45s)"
   },
   {
     "occurredAt": "2024-06-15T23:12:50.749000+00:00",
@@ -77,7 +172,18 @@
     "kind": "untraded_death",
     "gravity": 25,
     "gravityMvp": 30,
-    "details": "Died to Zven with no trade in 10s"
+    "answeredByObjective": false,
+    "objectiveAnswer": null,
+    "isNearObjective": true,
+    "nearObjective": {
+      "kind": "baron",
+      "deltaSeconds": 35,
+      "teamId": "47499",
+      "playerName": "Spica",
+      "rawType": "player-completed-slayBaron",
+      "occurredAt": "2024-06-15T23:13:26.044000+00:00"
+    },
+    "details": "Died to Zven with no kill by victim team after death in same fight cluster (gap=45s)"
   },
   {
     "occurredAt": "2024-06-15T23:12:54.102000+00:00",
@@ -87,7 +193,18 @@
     "kind": "untraded_death",
     "gravity": 25,
     "gravityMvp": 30,
-    "details": "Died to Zven with no trade in 10s"
+    "answeredByObjective": false,
+    "objectiveAnswer": null,
+    "isNearObjective": true,
+    "nearObjective": {
+      "kind": "baron",
+      "deltaSeconds": 31,
+      "teamId": "47499",
+      "playerName": "Spica",
+      "rawType": "player-completed-slayBaron",
+      "occurredAt": "2024-06-15T23:13:26.044000+00:00"
+    },
+    "details": "Died to Zven with no kill by victim team after death in same fight cluster (gap=45s)"
   },
   {
     "occurredAt": "2024-06-15T23:15:10.953000+00:00",
@@ -97,7 +214,18 @@
     "kind": "untraded_death",
     "gravity": 25,
     "gravityMvp": 30,
-    "details": "Died to Isles with no trade in 10s"
+    "answeredByObjective": false,
+    "objectiveAnswer": null,
+    "isNearObjective": true,
+    "nearObjective": {
+      "kind": "tower",
+      "deltaSeconds": -5,
+      "teamId": "",
+      "playerName": "Dignitas",
+      "rawType": "team-destroyed-tower",
+      "occurredAt": "2024-06-15T23:15:05.771000+00:00"
+    },
+    "details": "Died to Isles with no kill by victim team after death in same fight cluster (gap=45s)"
   },
   {
     "occurredAt": "2024-06-15T23:15:25.276000+00:00",
@@ -107,7 +235,18 @@
     "kind": "untraded_death",
     "gravity": 25,
     "gravityMvp": 30,
-    "details": "Died to Licorice with no trade in 10s"
+    "answeredByObjective": false,
+    "objectiveAnswer": null,
+    "isNearObjective": true,
+    "nearObjective": {
+      "kind": "tower",
+      "deltaSeconds": 13,
+      "teamId": "",
+      "playerName": "Dignitas",
+      "rawType": "team-destroyed-tower",
+      "occurredAt": "2024-06-15T23:15:38.899000+00:00"
+    },
+    "details": "Died to Licorice with no kill by victim team after death in same fight cluster (gap=45s)"
   },
   {
     "occurredAt": "2024-06-15T23:15:29.720000+00:00",
@@ -117,7 +256,18 @@
     "kind": "untraded_death",
     "gravity": 25,
     "gravityMvp": 30,
-    "details": "Died to Jensen with no trade in 10s"
+    "answeredByObjective": false,
+    "objectiveAnswer": null,
+    "isNearObjective": true,
+    "nearObjective": {
+      "kind": "tower",
+      "deltaSeconds": 9,
+      "teamId": "",
+      "playerName": "Dignitas",
+      "rawType": "team-destroyed-tower",
+      "occurredAt": "2024-06-15T23:15:38.899000+00:00"
+    },
+    "details": "Died to Jensen with no kill by victim team after death in same fight cluster (gap=45s)"
   },
   {
     "occurredAt": "2024-06-15T23:19:50.165000+00:00",
@@ -127,7 +277,18 @@
     "kind": "untraded_death",
     "gravity": 25,
     "gravityMvp": 30,
-    "details": "Died to Jensen with no trade in 10s"
+    "answeredByObjective": false,
+    "objectiveAnswer": null,
+    "isNearObjective": true,
+    "nearObjective": {
+      "kind": "baron",
+      "deltaSeconds": 43,
+      "teamId": "47499",
+      "playerName": "Spica",
+      "rawType": "player-completed-slayBaron",
+      "occurredAt": "2024-06-15T23:20:33.730000+00:00"
+    },
+    "details": "Died to Jensen with no kill by victim team after death in same fight cluster (gap=45s)"
   },
   {
     "occurredAt": "2024-06-15T23:19:55.124000+00:00",
@@ -137,7 +298,18 @@
     "kind": "untraded_death",
     "gravity": 25,
     "gravityMvp": 30,
-    "details": "Died to Zven with no trade in 10s"
+    "answeredByObjective": false,
+    "objectiveAnswer": null,
+    "isNearObjective": true,
+    "nearObjective": {
+      "kind": "baron",
+      "deltaSeconds": 38,
+      "teamId": "47499",
+      "playerName": "Spica",
+      "rawType": "player-completed-slayBaron",
+      "occurredAt": "2024-06-15T23:20:33.730000+00:00"
+    },
+    "details": "Died to Zven with no kill by victim team after death in same fight cluster (gap=45s)"
   },
   {
     "occurredAt": "2024-06-15T23:19:57.618000+00:00",
@@ -147,7 +319,18 @@
     "kind": "untraded_death",
     "gravity": 25,
     "gravityMvp": 30,
-    "details": "Died to Jensen with no trade in 10s"
+    "answeredByObjective": false,
+    "objectiveAnswer": null,
+    "isNearObjective": true,
+    "nearObjective": {
+      "kind": "baron",
+      "deltaSeconds": 36,
+      "teamId": "47499",
+      "playerName": "Spica",
+      "rawType": "player-completed-slayBaron",
+      "occurredAt": "2024-06-15T23:20:33.730000+00:00"
+    },
+    "details": "Died to Jensen with no kill by victim team after death in same fight cluster (gap=45s)"
   },
   {
     "occurredAt": "2024-06-15T23:21:13.112000+00:00",
@@ -157,37 +340,18 @@
     "kind": "untraded_death",
     "gravity": 25,
     "gravityMvp": 30,
-    "details": "Died to Jensen with no trade in 10s"
-  },
-  {
-    "occurredAt": "2024-06-15T23:23:30.368000+00:00",
-    "victimName": "VULCAN",
-    "victimTeamId": "47351",
-    "victimTeamName": "Cloud9",
-    "kind": "untraded_death",
-    "gravity": 25,
-    "gravityMvp": 35,
-    "details": "Died to Jensen with no trade in 10s"
-  },
-  {
-    "occurredAt": "2024-06-15T23:23:32.586000+00:00",
-    "victimName": "Thanatos",
-    "victimTeamId": "47351",
-    "victimTeamName": "Cloud9",
-    "kind": "untraded_death",
-    "gravity": 25,
-    "gravityMvp": 35,
-    "details": "Died to Zven with no trade in 10s"
-  },
-  {
-    "occurredAt": "2024-06-15T23:23:53.731000+00:00",
-    "victimName": "Jojopyun",
-    "victimTeamId": "47351",
-    "victimTeamName": "Cloud9",
-    "kind": "untraded_death",
-    "gravity": 25,
-    "gravityMvp": 35,
-    "details": "Died to Jensen with no trade in 10s"
+    "answeredByObjective": false,
+    "objectiveAnswer": null,
+    "isNearObjective": true,
+    "nearObjective": {
+      "kind": "tower",
+      "deltaSeconds": -24,
+      "teamId": "",
+      "playerName": "Cloud9",
+      "rawType": "team-destroyed-tower",
+      "occurredAt": "2024-06-15T23:20:48.448000+00:00"
+    },
+    "details": "Died to Jensen with no kill by victim team after death in same fight cluster (gap=45s)"
   },
   {
     "occurredAt": "2024-06-15T23:24:10.162000+00:00",
@@ -197,7 +361,18 @@
     "kind": "untraded_death",
     "gravity": 25,
     "gravityMvp": 35,
-    "details": "Died to Blaber with no trade in 10s"
+    "answeredByObjective": false,
+    "objectiveAnswer": null,
+    "isNearObjective": true,
+    "nearObjective": {
+      "kind": "tower",
+      "deltaSeconds": -10,
+      "teamId": "47499",
+      "playerName": "Licorice",
+      "rawType": "player-destroyed-tower",
+      "occurredAt": "2024-06-15T23:23:59.702000+00:00"
+    },
+    "details": "Died to Blaber with no kill by victim team after death in same fight cluster (gap=45s)"
   },
   {
     "occurredAt": "2024-06-15T23:49:04.143000+00:00",
@@ -207,7 +382,18 @@
     "kind": "untraded_death",
     "gravity": 25,
     "gravityMvp": 35,
-    "details": "Died to VULCAN with no trade in 10s"
+    "answeredByObjective": false,
+    "objectiveAnswer": null,
+    "isNearObjective": true,
+    "nearObjective": {
+      "kind": "plate",
+      "deltaSeconds": 65,
+      "teamId": "",
+      "playerName": "Dignitas",
+      "rawType": "team-completed-destroyTurretPlateBot",
+      "occurredAt": "2024-06-15T23:50:09.359000+00:00"
+    },
+    "details": "Died to VULCAN with no kill by victim team after death in same fight cluster (gap=45s)"
   },
   {
     "occurredAt": "2024-06-15T23:51:22.719000+00:00",
@@ -217,17 +403,18 @@
     "kind": "untraded_death",
     "gravity": 25,
     "gravityMvp": 35,
-    "details": "Died to Spica with no trade in 10s"
-  },
-  {
-    "occurredAt": "2024-06-15T23:53:36.320000+00:00",
-    "victimName": "Zven",
-    "victimTeamId": "47499",
-    "victimTeamName": "Dignitas",
-    "kind": "untraded_death",
-    "gravity": 25,
-    "gravityMvp": 35,
-    "details": "Died to VULCAN with no trade in 10s"
+    "answeredByObjective": false,
+    "objectiveAnswer": null,
+    "isNearObjective": true,
+    "nearObjective": {
+      "kind": "voidgrub",
+      "deltaSeconds": -47,
+      "teamId": "47351",
+      "playerName": "Blaber",
+      "rawType": "player-completed-slayVoidGrub",
+      "occurredAt": "2024-06-15T23:50:35.716000+00:00"
+    },
+    "details": "Died to Spica with no kill by victim team after death in same fight cluster (gap=45s)"
   },
   {
     "occurredAt": "2024-06-15T23:53:53.497000+00:00",
@@ -237,7 +424,24 @@
     "kind": "untraded_death",
     "gravity": 25,
     "gravityMvp": 35,
-    "details": "Died to Jensen with no trade in 10s"
+    "answeredByObjective": true,
+    "objectiveAnswer": {
+      "kind": "plate",
+      "occurredAt": "2024-06-15T23:54:51.081000+00:00",
+      "teamId": "47351",
+      "playerName": "Berserker",
+      "rawType": "player-completed-destroyTurretPlateBot"
+    },
+    "isNearObjective": true,
+    "nearObjective": {
+      "kind": "plate",
+      "deltaSeconds": -10,
+      "teamId": "",
+      "playerName": "Cloud9",
+      "rawType": "team-completed-destroyTurretPlateBot",
+      "occurredAt": "2024-06-15T23:53:42.914000+00:00"
+    },
+    "details": "Died to Jensen with no kill by victim team after death in same fight cluster (gap=45s)"
   },
   {
     "occurredAt": "2024-06-15T23:53:58.282000+00:00",
@@ -247,7 +451,24 @@
     "kind": "untraded_death",
     "gravity": 25,
     "gravityMvp": 35,
-    "details": "Died to Jensen with no trade in 10s"
+    "answeredByObjective": true,
+    "objectiveAnswer": {
+      "kind": "plate",
+      "occurredAt": "2024-06-15T23:54:51.081000+00:00",
+      "teamId": "47351",
+      "playerName": "Berserker",
+      "rawType": "player-completed-destroyTurretPlateBot"
+    },
+    "isNearObjective": true,
+    "nearObjective": {
+      "kind": "plate",
+      "deltaSeconds": -15,
+      "teamId": "",
+      "playerName": "Cloud9",
+      "rawType": "team-completed-destroyTurretPlateBot",
+      "occurredAt": "2024-06-15T23:53:42.914000+00:00"
+    },
+    "details": "Died to Jensen with no kill by victim team after death in same fight cluster (gap=45s)"
   },
   {
     "occurredAt": "2024-06-15T23:55:49.236000+00:00",
@@ -257,7 +478,18 @@
     "kind": "untraded_death",
     "gravity": 25,
     "gravityMvp": 35,
-    "details": "Died to Blaber with no trade in 10s"
+    "answeredByObjective": false,
+    "objectiveAnswer": null,
+    "isNearObjective": true,
+    "nearObjective": {
+      "kind": "plate",
+      "deltaSeconds": 12,
+      "teamId": "47351",
+      "playerName": "Jojopyun",
+      "rawType": "player-completed-destroyTurretPlateBot",
+      "occurredAt": "2024-06-15T23:56:01.848000+00:00"
+    },
+    "details": "Died to Blaber with no kill by victim team after death in same fight cluster (gap=45s)"
   },
   {
     "occurredAt": "2024-06-15T23:57:04.383000+00:00",
@@ -267,17 +499,18 @@
     "kind": "untraded_death",
     "gravity": 25,
     "gravityMvp": 35,
-    "details": "Died to Jensen with no trade in 10s"
-  },
-  {
-    "occurredAt": "2024-06-15T23:58:24.796000+00:00",
-    "victimName": "Isles",
-    "victimTeamId": "47499",
-    "victimTeamName": "Dignitas",
-    "kind": "untraded_death",
-    "gravity": 25,
-    "gravityMvp": 35,
-    "details": "Died to Jojopyun with no trade in 10s"
+    "answeredByObjective": false,
+    "objectiveAnswer": null,
+    "isNearObjective": true,
+    "nearObjective": {
+      "kind": "tower",
+      "deltaSeconds": -31,
+      "teamId": "47351",
+      "playerName": "Jojopyun",
+      "rawType": "player-destroyed-tower",
+      "occurredAt": "2024-06-15T23:56:33.326000+00:00"
+    },
+    "details": "Died to Jensen with no kill by victim team after death in same fight cluster (gap=45s)"
   },
   {
     "occurredAt": "2024-06-15T23:58:43.018000+00:00",
@@ -287,17 +520,11 @@
     "kind": "untraded_death",
     "gravity": 25,
     "gravityMvp": 35,
-    "details": "Died to Spica with no trade in 10s"
-  },
-  {
-    "occurredAt": "2024-06-16T00:02:24.523000+00:00",
-    "victimName": "Spica",
-    "victimTeamId": "47499",
-    "victimTeamName": "Dignitas",
-    "kind": "untraded_death",
-    "gravity": 25,
-    "gravityMvp": 35,
-    "details": "Died to Jojopyun with no trade in 10s"
+    "answeredByObjective": false,
+    "objectiveAnswer": null,
+    "isNearObjective": false,
+    "nearObjective": null,
+    "details": "Died to Spica with no kill by victim team after death in same fight cluster (gap=45s)"
   },
   {
     "occurredAt": "2024-06-16T00:02:35.777000+00:00",
@@ -307,7 +534,18 @@
     "kind": "untraded_death",
     "gravity": 25,
     "gravityMvp": 35,
-    "details": "Died to Jensen with no trade in 10s"
+    "answeredByObjective": false,
+    "objectiveAnswer": null,
+    "isNearObjective": true,
+    "nearObjective": {
+      "kind": "tower",
+      "deltaSeconds": -13,
+      "teamId": "47351",
+      "playerName": "Blaber",
+      "rawType": "player-destroyed-tower",
+      "occurredAt": "2024-06-16T00:02:21.792000+00:00"
+    },
+    "details": "Died to Jensen with no kill by victim team after death in same fight cluster (gap=45s)"
   },
   {
     "occurredAt": "2024-06-16T00:02:37.974000+00:00",
@@ -317,7 +555,18 @@
     "kind": "untraded_death",
     "gravity": 25,
     "gravityMvp": 35,
-    "details": "Died to Licorice with no trade in 10s"
+    "answeredByObjective": false,
+    "objectiveAnswer": null,
+    "isNearObjective": true,
+    "nearObjective": {
+      "kind": "tower",
+      "deltaSeconds": -16,
+      "teamId": "47351",
+      "playerName": "Blaber",
+      "rawType": "player-destroyed-tower",
+      "occurredAt": "2024-06-16T00:02:21.792000+00:00"
+    },
+    "details": "Died to Licorice with no kill by victim team after death in same fight cluster (gap=45s)"
   },
   {
     "occurredAt": "2024-06-16T00:07:59.981000+00:00",
@@ -327,7 +576,18 @@
     "kind": "untraded_death",
     "gravity": 25,
     "gravityMvp": 35,
-    "details": "Died to Thanatos with no trade in 10s"
+    "answeredByObjective": false,
+    "objectiveAnswer": null,
+    "isNearObjective": true,
+    "nearObjective": {
+      "kind": "tower",
+      "deltaSeconds": -11,
+      "teamId": "47351",
+      "playerName": "Berserker",
+      "rawType": "player-destroyed-tower",
+      "occurredAt": "2024-06-16T00:07:48.532000+00:00"
+    },
+    "details": "Died to Thanatos with no kill by victim team after death in same fight cluster (gap=45s)"
   },
   {
     "occurredAt": "2024-06-16T00:09:43.477000+00:00",
@@ -337,7 +597,24 @@
     "kind": "untraded_death",
     "gravity": 25,
     "gravityMvp": 35,
-    "details": "Died to Zven with no trade in 10s"
+    "answeredByObjective": true,
+    "objectiveAnswer": {
+      "kind": "tower",
+      "occurredAt": "2024-06-16T00:09:43.805000+00:00",
+      "teamId": "47351",
+      "playerName": "Berserker",
+      "rawType": "player-destroyed-tower"
+    },
+    "isNearObjective": true,
+    "nearObjective": {
+      "kind": "tower",
+      "deltaSeconds": 0,
+      "teamId": "47351",
+      "playerName": "Berserker",
+      "rawType": "player-destroyed-tower",
+      "occurredAt": "2024-06-16T00:09:43.805000+00:00"
+    },
+    "details": "Died to Zven with no kill by victim team after death in same fight cluster (gap=45s)"
   },
   {
     "occurredAt": "2024-06-16T00:10:15.012000+00:00",
@@ -347,7 +624,18 @@
     "kind": "untraded_death",
     "gravity": 25,
     "gravityMvp": 35,
-    "details": "Died to Jensen with no trade in 10s"
+    "answeredByObjective": false,
+    "objectiveAnswer": null,
+    "isNearObjective": true,
+    "nearObjective": {
+      "kind": "tower",
+      "deltaSeconds": 9,
+      "teamId": "47499",
+      "playerName": "Zven",
+      "rawType": "player-destroyed-tower",
+      "occurredAt": "2024-06-16T00:10:24.966000+00:00"
+    },
+    "details": "Died to Jensen with no kill by victim team after death in same fight cluster (gap=45s)"
   },
   {
     "occurredAt": "2024-06-16T00:10:16.919000+00:00",
@@ -357,7 +645,18 @@
     "kind": "untraded_death",
     "gravity": 25,
     "gravityMvp": 35,
-    "details": "Died to Zven with no trade in 10s"
+    "answeredByObjective": false,
+    "objectiveAnswer": null,
+    "isNearObjective": true,
+    "nearObjective": {
+      "kind": "tower",
+      "deltaSeconds": 8,
+      "teamId": "47499",
+      "playerName": "Zven",
+      "rawType": "player-destroyed-tower",
+      "occurredAt": "2024-06-16T00:10:24.966000+00:00"
+    },
+    "details": "Died to Zven with no kill by victim team after death in same fight cluster (gap=45s)"
   },
   {
     "occurredAt": "2024-06-16T00:10:20.664000+00:00",
@@ -367,27 +666,18 @@
     "kind": "untraded_death",
     "gravity": 25,
     "gravityMvp": 35,
-    "details": "Died to Spica with no trade in 10s"
-  },
-  {
-    "occurredAt": "2024-06-16T00:11:34.329000+00:00",
-    "victimName": "Thanatos",
-    "victimTeamId": "47351",
-    "victimTeamName": "Cloud9",
-    "kind": "untraded_death",
-    "gravity": 25,
-    "gravityMvp": 35,
-    "details": "Died to Zven with no trade in 10s"
-  },
-  {
-    "occurredAt": "2024-06-16T00:11:55.343000+00:00",
-    "victimName": "Spica",
-    "victimTeamId": "47499",
-    "victimTeamName": "Dignitas",
-    "kind": "untraded_death",
-    "gravity": 25,
-    "gravityMvp": 35,
-    "details": "Died to VULCAN with no trade in 10s"
+    "answeredByObjective": false,
+    "objectiveAnswer": null,
+    "isNearObjective": true,
+    "nearObjective": {
+      "kind": "tower",
+      "deltaSeconds": 4,
+      "teamId": "47499",
+      "playerName": "Zven",
+      "rawType": "player-destroyed-tower",
+      "occurredAt": "2024-06-16T00:10:24.966000+00:00"
+    },
+    "details": "Died to Spica with no kill by victim team after death in same fight cluster (gap=45s)"
   },
   {
     "occurredAt": "2024-06-16T00:12:40.995000+00:00",
@@ -397,7 +687,18 @@
     "kind": "untraded_death",
     "gravity": 25,
     "gravityMvp": 35,
-    "details": "Died to Berserker with no trade in 10s"
+    "answeredByObjective": false,
+    "objectiveAnswer": null,
+    "isNearObjective": true,
+    "nearObjective": {
+      "kind": "drake_ocean",
+      "deltaSeconds": 14,
+      "teamId": "47351",
+      "playerName": "Blaber",
+      "rawType": "player-completed-slayOceanDrake",
+      "occurredAt": "2024-06-16T00:12:55.413000+00:00"
+    },
+    "details": "Died to Berserker with no kill by victim team after death in same fight cluster (gap=45s)"
   },
   {
     "occurredAt": "2024-06-16T00:15:06.784000+00:00",
@@ -407,7 +708,11 @@
     "kind": "untraded_death",
     "gravity": 25,
     "gravityMvp": 35,
-    "details": "Died to VULCAN with no trade in 10s"
+    "answeredByObjective": false,
+    "objectiveAnswer": null,
+    "isNearObjective": false,
+    "nearObjective": null,
+    "details": "Died to VULCAN with no kill by victim team after death in same fight cluster (gap=45s)"
   },
   {
     "occurredAt": "2024-06-16T00:16:24.920000+00:00",
@@ -417,7 +722,18 @@
     "kind": "untraded_death",
     "gravity": 25,
     "gravityMvp": 35,
-    "details": "Died to Berserker with no trade in 10s"
+    "answeredByObjective": false,
+    "objectiveAnswer": null,
+    "isNearObjective": true,
+    "nearObjective": {
+      "kind": "baron",
+      "deltaSeconds": 20,
+      "teamId": "47351",
+      "playerName": "Blaber",
+      "rawType": "player-completed-slayBaron",
+      "occurredAt": "2024-06-16T00:16:45.821000+00:00"
+    },
+    "details": "Died to Berserker with no kill by victim team after death in same fight cluster (gap=45s)"
   },
   {
     "occurredAt": "2024-06-16T00:17:56.922000+00:00",
@@ -427,7 +743,18 @@
     "kind": "untraded_death",
     "gravity": 25,
     "gravityMvp": 35,
-    "details": "Died to Jojopyun with no trade in 10s"
+    "answeredByObjective": false,
+    "objectiveAnswer": null,
+    "isNearObjective": true,
+    "nearObjective": {
+      "kind": "drake_ocean",
+      "deltaSeconds": 23,
+      "teamId": "47351",
+      "playerName": "Blaber",
+      "rawType": "player-completed-slayOceanDrake",
+      "occurredAt": "2024-06-16T00:18:20.333000+00:00"
+    },
+    "details": "Died to Jojopyun with no kill by victim team after death in same fight cluster (gap=45s)"
   },
   {
     "occurredAt": "2024-06-16T00:24:27.016000+00:00",
@@ -437,7 +764,18 @@
     "kind": "untraded_death",
     "gravity": 25,
     "gravityMvp": 35,
-    "details": "Died to Blaber with no trade in 10s"
+    "answeredByObjective": false,
+    "objectiveAnswer": null,
+    "isNearObjective": true,
+    "nearObjective": {
+      "kind": "tower",
+      "deltaSeconds": -3,
+      "teamId": "",
+      "playerName": "Cloud9",
+      "rawType": "team-destroyed-tower",
+      "occurredAt": "2024-06-16T00:24:23.395000+00:00"
+    },
+    "details": "Died to Blaber with no kill by victim team after death in same fight cluster (gap=45s)"
   },
   {
     "occurredAt": "2024-06-16T00:24:42.651000+00:00",
@@ -447,7 +785,18 @@
     "kind": "untraded_death",
     "gravity": 25,
     "gravityMvp": 35,
-    "details": "Died to Thanatos with no trade in 10s"
+    "answeredByObjective": false,
+    "objectiveAnswer": null,
+    "isNearObjective": true,
+    "nearObjective": {
+      "kind": "tower",
+      "deltaSeconds": 5,
+      "teamId": "47351",
+      "playerName": "Berserker",
+      "rawType": "player-destroyed-tower",
+      "occurredAt": "2024-06-16T00:24:47.903000+00:00"
+    },
+    "details": "Died to Thanatos with no kill by victim team after death in same fight cluster (gap=45s)"
   },
   {
     "occurredAt": "2024-06-16T00:24:45.683000+00:00",
@@ -457,7 +806,18 @@
     "kind": "untraded_death",
     "gravity": 25,
     "gravityMvp": 35,
-    "details": "Died to Berserker with no trade in 10s"
+    "answeredByObjective": false,
+    "objectiveAnswer": null,
+    "isNearObjective": true,
+    "nearObjective": {
+      "kind": "tower",
+      "deltaSeconds": 2,
+      "teamId": "47351",
+      "playerName": "Berserker",
+      "rawType": "player-destroyed-tower",
+      "occurredAt": "2024-06-16T00:24:47.903000+00:00"
+    },
+    "details": "Died to Berserker with no kill by victim team after death in same fight cluster (gap=45s)"
   },
   {
     "occurredAt": "2024-06-16T00:24:46.248000+00:00",
@@ -467,7 +827,18 @@
     "kind": "untraded_death",
     "gravity": 25,
     "gravityMvp": 35,
-    "details": "Died to Thanatos with no trade in 10s"
+    "answeredByObjective": false,
+    "objectiveAnswer": null,
+    "isNearObjective": true,
+    "nearObjective": {
+      "kind": "tower",
+      "deltaSeconds": 1,
+      "teamId": "47351",
+      "playerName": "Berserker",
+      "rawType": "player-destroyed-tower",
+      "occurredAt": "2024-06-16T00:24:47.903000+00:00"
+    },
+    "details": "Died to Thanatos with no kill by victim team after death in same fight cluster (gap=45s)"
   },
   {
     "occurredAt": "2024-06-16T00:24:49.804000+00:00",
@@ -477,7 +848,18 @@
     "kind": "untraded_death",
     "gravity": 25,
     "gravityMvp": 35,
-    "details": "Died to Thanatos with no trade in 10s"
+    "answeredByObjective": false,
+    "objectiveAnswer": null,
+    "isNearObjective": true,
+    "nearObjective": {
+      "kind": "tower",
+      "deltaSeconds": 1,
+      "teamId": "47351",
+      "playerName": "VULCAN",
+      "rawType": "player-destroyed-tower",
+      "occurredAt": "2024-06-16T00:24:51.608000+00:00"
+    },
+    "details": "Died to Thanatos with no kill by victim team after death in same fight cluster (gap=45s)"
   },
   {
     "occurredAt": "2024-06-16T00:48:38.308000+00:00",
@@ -487,7 +869,24 @@
     "kind": "untraded_death",
     "gravity": 25,
     "gravityMvp": 35,
-    "details": "Died to Blaber with no trade in 10s"
+    "answeredByObjective": true,
+    "objectiveAnswer": {
+      "kind": "plate",
+      "occurredAt": "2024-06-16T00:48:38.866000+00:00",
+      "teamId": "47499",
+      "playerName": "Isles",
+      "rawType": "player-completed-destroyTurretPlateBot"
+    },
+    "isNearObjective": true,
+    "nearObjective": {
+      "kind": "plate",
+      "deltaSeconds": 0,
+      "teamId": "47499",
+      "playerName": "Isles",
+      "rawType": "player-completed-destroyTurretPlateBot",
+      "occurredAt": "2024-06-16T00:48:38.866000+00:00"
+    },
+    "details": "Died to Blaber with no kill by victim team after death in same fight cluster (gap=45s)"
   },
   {
     "occurredAt": "2024-06-16T00:52:39.876000+00:00",
@@ -497,7 +896,18 @@
     "kind": "untraded_death",
     "gravity": 25,
     "gravityMvp": 35,
-    "details": "Died to Spica with no trade in 10s"
+    "answeredByObjective": false,
+    "objectiveAnswer": null,
+    "isNearObjective": true,
+    "nearObjective": {
+      "kind": "plate",
+      "deltaSeconds": 0,
+      "teamId": "47499",
+      "playerName": "Jensen",
+      "rawType": "player-completed-destroyTurretPlateBot",
+      "occurredAt": "2024-06-16T00:52:38.965000+00:00"
+    },
+    "details": "Died to Spica with no kill by victim team after death in same fight cluster (gap=45s)"
   },
   {
     "occurredAt": "2024-06-16T00:55:55.924000+00:00",
@@ -507,7 +917,18 @@
     "kind": "untraded_death",
     "gravity": 25,
     "gravityMvp": 35,
-    "details": "Died to Berserker with no trade in 10s"
+    "answeredByObjective": false,
+    "objectiveAnswer": null,
+    "isNearObjective": true,
+    "nearObjective": {
+      "kind": "tower",
+      "deltaSeconds": -46,
+      "teamId": "",
+      "playerName": "Dignitas",
+      "rawType": "team-destroyed-tower",
+      "occurredAt": "2024-06-16T00:55:09.105000+00:00"
+    },
+    "details": "Died to Berserker with no kill by victim team after death in same fight cluster (gap=45s)"
   },
   {
     "occurredAt": "2024-06-16T00:56:51.771000+00:00",
@@ -517,7 +938,24 @@
     "kind": "untraded_death",
     "gravity": 25,
     "gravityMvp": 35,
-    "details": "Died to Licorice with no trade in 10s"
+    "answeredByObjective": true,
+    "objectiveAnswer": {
+      "kind": "tower",
+      "occurredAt": "2024-06-16T00:57:15.469000+00:00",
+      "teamId": "47351",
+      "playerName": "Berserker",
+      "rawType": "player-destroyed-tower"
+    },
+    "isNearObjective": true,
+    "nearObjective": {
+      "kind": "tower",
+      "deltaSeconds": 23,
+      "teamId": "47351",
+      "playerName": "Berserker",
+      "rawType": "player-destroyed-tower",
+      "occurredAt": "2024-06-16T00:57:15.469000+00:00"
+    },
+    "details": "Died to Licorice with no kill by victim team after death in same fight cluster (gap=45s)"
   },
   {
     "occurredAt": "2024-06-16T00:59:48.558000+00:00",
@@ -527,37 +965,24 @@
     "kind": "untraded_death",
     "gravity": 25,
     "gravityMvp": 35,
-    "details": "Died to Berserker with no trade in 10s"
-  },
-  {
-    "occurredAt": "2024-06-16T01:02:04.823000+00:00",
-    "victimName": "Blaber",
-    "victimTeamId": "47351",
-    "victimTeamName": "Cloud9",
-    "kind": "untraded_death",
-    "gravity": 25,
-    "gravityMvp": 35,
-    "details": "Died to Jensen with no trade in 10s"
-  },
-  {
-    "occurredAt": "2024-06-16T01:02:54.805000+00:00",
-    "victimName": "Zven",
-    "victimTeamId": "47499",
-    "victimTeamName": "Dignitas",
-    "kind": "untraded_death",
-    "gravity": 25,
-    "gravityMvp": 35,
-    "details": "Died to Thanatos with no trade in 10s"
-  },
-  {
-    "occurredAt": "2024-06-16T01:02:58.856000+00:00",
-    "victimName": "Licorice",
-    "victimTeamId": "47499",
-    "victimTeamName": "Dignitas",
-    "kind": "untraded_death",
-    "gravity": 25,
-    "gravityMvp": 35,
-    "details": "Died to Berserker with no trade in 10s"
+    "answeredByObjective": true,
+    "objectiveAnswer": {
+      "kind": "drake_mountain",
+      "occurredAt": "2024-06-16T01:00:34.314000+00:00",
+      "teamId": "47499",
+      "playerName": "Licorice",
+      "rawType": "player-completed-slayMountainDrake"
+    },
+    "isNearObjective": true,
+    "nearObjective": {
+      "kind": "drake_mountain",
+      "deltaSeconds": 45,
+      "teamId": "47499",
+      "playerName": "Licorice",
+      "rawType": "player-completed-slayMountainDrake",
+      "occurredAt": "2024-06-16T01:00:34.314000+00:00"
+    },
+    "details": "Died to Berserker with no kill by victim team after death in same fight cluster (gap=45s)"
   },
   {
     "occurredAt": "2024-06-16T01:03:47.573000+00:00",
@@ -567,7 +992,18 @@
     "kind": "untraded_death",
     "gravity": 25,
     "gravityMvp": 35,
-    "details": "Died to Berserker with no trade in 10s"
+    "answeredByObjective": false,
+    "objectiveAnswer": null,
+    "isNearObjective": true,
+    "nearObjective": {
+      "kind": "baron",
+      "deltaSeconds": -14,
+      "teamId": "47351",
+      "playerName": "Blaber",
+      "rawType": "player-completed-slayBaron",
+      "occurredAt": "2024-06-16T01:03:32.661000+00:00"
+    },
+    "details": "Died to Berserker with no kill by victim team after death in same fight cluster (gap=45s)"
   },
   {
     "occurredAt": "2024-06-16T01:05:39.298000+00:00",
@@ -577,7 +1013,18 @@
     "kind": "untraded_death",
     "gravity": 25,
     "gravityMvp": 35,
-    "details": "Died to Blaber with no trade in 10s"
+    "answeredByObjective": false,
+    "objectiveAnswer": null,
+    "isNearObjective": true,
+    "nearObjective": {
+      "kind": "drake_mountain",
+      "deltaSeconds": 16,
+      "teamId": "47351",
+      "playerName": "Blaber",
+      "rawType": "player-completed-slayMountainDrake",
+      "occurredAt": "2024-06-16T01:05:55.886000+00:00"
+    },
+    "details": "Died to Blaber with no kill by victim team after death in same fight cluster (gap=45s)"
   },
   {
     "occurredAt": "2024-06-16T01:05:40.861000+00:00",
@@ -587,7 +1034,18 @@
     "kind": "untraded_death",
     "gravity": 25,
     "gravityMvp": 35,
-    "details": "Died to Thanatos with no trade in 10s"
+    "answeredByObjective": false,
+    "objectiveAnswer": null,
+    "isNearObjective": true,
+    "nearObjective": {
+      "kind": "drake_mountain",
+      "deltaSeconds": 15,
+      "teamId": "47351",
+      "playerName": "Blaber",
+      "rawType": "player-completed-slayMountainDrake",
+      "occurredAt": "2024-06-16T01:05:55.886000+00:00"
+    },
+    "details": "Died to Thanatos with no kill by victim team after death in same fight cluster (gap=45s)"
   },
   {
     "occurredAt": "2024-06-16T01:09:15.518000+00:00",
@@ -597,7 +1055,24 @@
     "kind": "untraded_death",
     "gravity": 25,
     "gravityMvp": 35,
-    "details": "Died to Licorice with no trade in 10s"
+    "answeredByObjective": true,
+    "objectiveAnswer": {
+      "kind": "tower",
+      "occurredAt": "2024-06-16T01:09:43.067000+00:00",
+      "teamId": "47351",
+      "playerName": "Berserker",
+      "rawType": "player-destroyed-tower"
+    },
+    "isNearObjective": true,
+    "nearObjective": {
+      "kind": "tower",
+      "deltaSeconds": 27,
+      "teamId": "47351",
+      "playerName": "Berserker",
+      "rawType": "player-destroyed-tower",
+      "occurredAt": "2024-06-16T01:09:43.067000+00:00"
+    },
+    "details": "Died to Licorice with no kill by victim team after death in same fight cluster (gap=45s)"
   },
   {
     "occurredAt": "2024-06-16T01:09:20.142000+00:00",
@@ -607,7 +1082,24 @@
     "kind": "untraded_death",
     "gravity": 25,
     "gravityMvp": 35,
-    "details": "Died to Zven with no trade in 10s"
+    "answeredByObjective": true,
+    "objectiveAnswer": {
+      "kind": "tower",
+      "occurredAt": "2024-06-16T01:09:43.067000+00:00",
+      "teamId": "47351",
+      "playerName": "Berserker",
+      "rawType": "player-destroyed-tower"
+    },
+    "isNearObjective": true,
+    "nearObjective": {
+      "kind": "tower",
+      "deltaSeconds": 22,
+      "teamId": "47351",
+      "playerName": "Berserker",
+      "rawType": "player-destroyed-tower",
+      "occurredAt": "2024-06-16T01:09:43.067000+00:00"
+    },
+    "details": "Died to Zven with no kill by victim team after death in same fight cluster (gap=45s)"
   },
   {
     "occurredAt": "2024-06-16T01:11:27.481000+00:00",
@@ -617,7 +1109,18 @@
     "kind": "untraded_death",
     "gravity": 25,
     "gravityMvp": 35,
-    "details": "Died to Berserker with no trade in 10s"
+    "answeredByObjective": false,
+    "objectiveAnswer": null,
+    "isNearObjective": true,
+    "nearObjective": {
+      "kind": "tower",
+      "deltaSeconds": 14,
+      "teamId": "",
+      "playerName": "Dignitas",
+      "rawType": "team-destroyed-tower",
+      "occurredAt": "2024-06-16T01:11:41.727000+00:00"
+    },
+    "details": "Died to Berserker with no kill by victim team after death in same fight cluster (gap=45s)"
   },
   {
     "occurredAt": "2024-06-16T01:13:12.907000+00:00",
@@ -627,7 +1130,18 @@
     "kind": "untraded_death",
     "gravity": 25,
     "gravityMvp": 35,
-    "details": "Died to Thanatos with no trade in 10s"
+    "answeredByObjective": false,
+    "objectiveAnswer": null,
+    "isNearObjective": true,
+    "nearObjective": {
+      "kind": "tower",
+      "deltaSeconds": -25,
+      "teamId": "",
+      "playerName": "Dignitas",
+      "rawType": "team-destroyed-tower",
+      "occurredAt": "2024-06-16T01:12:46.973000+00:00"
+    },
+    "details": "Died to Thanatos with no kill by victim team after death in same fight cluster (gap=45s)"
   },
   {
     "occurredAt": "2024-06-16T01:13:16.570000+00:00",
@@ -637,7 +1151,18 @@
     "kind": "untraded_death",
     "gravity": 25,
     "gravityMvp": 35,
-    "details": "Died to Berserker with no trade in 10s"
+    "answeredByObjective": false,
+    "objectiveAnswer": null,
+    "isNearObjective": true,
+    "nearObjective": {
+      "kind": "tower",
+      "deltaSeconds": -29,
+      "teamId": "",
+      "playerName": "Dignitas",
+      "rawType": "team-destroyed-tower",
+      "occurredAt": "2024-06-16T01:12:46.973000+00:00"
+    },
+    "details": "Died to Berserker with no kill by victim team after death in same fight cluster (gap=45s)"
   },
   {
     "occurredAt": "2024-06-16T01:14:02.946000+00:00",
@@ -647,7 +1172,18 @@
     "kind": "untraded_death",
     "gravity": 25,
     "gravityMvp": 35,
-    "details": "Died to Thanatos with no trade in 10s"
+    "answeredByObjective": false,
+    "objectiveAnswer": null,
+    "isNearObjective": true,
+    "nearObjective": {
+      "kind": "fortifier",
+      "deltaSeconds": 1,
+      "teamId": "47351",
+      "playerName": "Jojopyun",
+      "rawType": "player-destroyed-fortifier",
+      "occurredAt": "2024-06-16T01:14:04.476000+00:00"
+    },
+    "details": "Died to Thanatos with no kill by victim team after death in same fight cluster (gap=45s)"
   },
   {
     "occurredAt": "2024-06-16T01:16:09.521000+00:00",
@@ -657,7 +1193,18 @@
     "kind": "untraded_death",
     "gravity": 25,
     "gravityMvp": 35,
-    "details": "Died to Thanatos with no trade in 10s"
+    "answeredByObjective": false,
+    "objectiveAnswer": null,
+    "isNearObjective": true,
+    "nearObjective": {
+      "kind": "baron",
+      "deltaSeconds": 31,
+      "teamId": "47351",
+      "playerName": "Blaber",
+      "rawType": "player-completed-slayBaron",
+      "occurredAt": "2024-06-16T01:16:41.082000+00:00"
+    },
+    "details": "Died to Thanatos with no kill by victim team after death in same fight cluster (gap=45s)"
   },
   {
     "occurredAt": "2024-06-16T01:16:59.084000+00:00",
@@ -667,7 +1214,18 @@
     "kind": "untraded_death",
     "gravity": 25,
     "gravityMvp": 35,
-    "details": "Died to Berserker with no trade in 10s"
+    "answeredByObjective": false,
+    "objectiveAnswer": null,
+    "isNearObjective": true,
+    "nearObjective": {
+      "kind": "baron",
+      "deltaSeconds": -18,
+      "teamId": "47351",
+      "playerName": "Blaber",
+      "rawType": "player-completed-slayBaron",
+      "occurredAt": "2024-06-16T01:16:41.082000+00:00"
+    },
+    "details": "Died to Berserker with no kill by victim team after death in same fight cluster (gap=45s)"
   },
   {
     "occurredAt": "2024-06-16T01:17:28.600000+00:00",
@@ -677,7 +1235,18 @@
     "kind": "untraded_death",
     "gravity": 25,
     "gravityMvp": 35,
-    "details": "Died to Berserker with no trade in 10s"
+    "answeredByObjective": false,
+    "objectiveAnswer": null,
+    "isNearObjective": true,
+    "nearObjective": {
+      "kind": "tower",
+      "deltaSeconds": -2,
+      "teamId": "",
+      "playerName": "Cloud9",
+      "rawType": "team-destroyed-tower",
+      "occurredAt": "2024-06-16T01:17:25.811000+00:00"
+    },
+    "details": "Died to Berserker with no kill by victim team after death in same fight cluster (gap=45s)"
   },
   {
     "occurredAt": "2024-06-16T01:17:34.736000+00:00",
@@ -687,6 +1256,17 @@
     "kind": "untraded_death",
     "gravity": 25,
     "gravityMvp": 35,
-    "details": "Died to Berserker with no trade in 10s"
+    "answeredByObjective": false,
+    "objectiveAnswer": null,
+    "isNearObjective": true,
+    "nearObjective": {
+      "kind": "tower",
+      "deltaSeconds": 2,
+      "teamId": "47351",
+      "playerName": "Blaber",
+      "rawType": "player-destroyed-tower",
+      "occurredAt": "2024-06-16T01:17:37.398000+00:00"
+    },
+    "details": "Died to Berserker with no kill by victim team after death in same fight cluster (gap=45s)"
   }
 ]
