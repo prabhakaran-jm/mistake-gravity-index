@@ -498,4 +498,50 @@ def run(series_id: str, top: int = 10, window_seconds: int = DEFAULT_WINDOW_SECO
 
     console.print(player_table)
 
+    # Option B: mgiScore distribution
+    dist_table = Table(title="MGI Score Distribution")
+    dist_table.add_column("Score Range", style="cyan")
+    dist_table.add_column("Severity", style="magenta")
+    dist_table.add_column("Count", justify="right", style="green")
+
+    low = sum(1 for x in payload if x["mgiScore"] <= 30)
+    mid = sum(1 for x in payload if 31 <= x["mgiScore"] <= 45)
+    high = sum(1 for x in payload if x["mgiScore"] >= 46)
+
+    dist_table.add_row("0–30", "Low Impact", str(low))
+    dist_table.add_row("31–45", "Medium", str(mid))
+    dist_table.add_row("46+", "High Impact", str(high))
+    console.print(dist_table)
+
+    # Option A: Coach Summary
+    print("\nCoach Insight:")
+    # 81% of untraded deaths were unanswered by objectives.
+    # unanswered_rate is calculated above as (unanswered_cnt / len(mistakes) * 100)
+    print(f" • {unanswered_rate:.0f}% of untraded deaths were unanswered by objectives.")
+    # 72% occurred under direct objective pressure (±30s).
+    # pressure_rate is calculated above as (pressure_cnt / len(mistakes) * 100)
+    print(f" • {pressure_rate:.0f}% occurred under direct objective pressure (±30s).")
+
+    # Dignitas suffered the highest MGI impact during Baron and tower windows.
+    # We can find the team with the highest total MGI score
+    by_team_mgi = defaultdict(int)
+    for x in payload:
+        by_team_mgi[x["victimTeamId"]] += x["mgiScore"]
+    
+    if by_team_mgi:
+        top_team_id = max(by_team_mgi, key=by_team_mgi.get)
+        top_team_name = team_names.get(top_team_id, top_team_id)
+        
+        # Check if they had Baron/Tower pressure
+        has_baron_tower = any(
+            x["victimTeamId"] == top_team_id and 
+            x["isNearObjective"] and 
+            x["nearObjective"]["kind"] in ["baron", "tower"] 
+            for x in payload
+        )
+        if has_baron_tower:
+            print(f" • {top_team_name} suffered the highest MGI impact during Baron and tower windows.")
+        else:
+            print(f" • {top_team_name} suffered the highest cumulative MGI impact.")
+
     return 0
