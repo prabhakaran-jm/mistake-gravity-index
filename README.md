@@ -3,7 +3,7 @@
 > **Why this matters for coaches:** In the flood of post-match data, identifying which deaths actually cost the game is a manual, exhausting process. MGI automates this by filtering out "traded" kills and highlighting the strategically catastrophic moments where a team loses a member under objective pressure without any reciprocal gain. It turns raw event logs into an actionable hit-list of game-losing mistakes.
 
 Mistake Gravity Index (MGI) is an assistant-coach analytics tool for League of Legends coaches and analysts.
-Built for the **Sky’s The Limit – Cloud9 x JetBrains Hackathon** under **Category 1 — Comprehensive Assistant Coach**.
+Built for the **Sky’s The Limit – Cloud9 x JetBrains Hackathon** under **Category 1 - Comprehensive Assistant Coach**.
 
 > **Category 1 Justification:** Mistake Gravity Index is an assistant-coach tool that analyzes official GRID match data to automatically identify, rank, and explain the most strategically damaging deaths in a game, generating a prioritized post-match review agenda for coaches and players.
 
